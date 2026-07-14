@@ -2,16 +2,35 @@
 
 Enterprise Retail Sales Analytics Platform
 
-## Objective
+## Overview
 
 Build an end-to-end Business Intelligence solution using
 
-- PostgreSQL
-- Python
-- Power BI
-- SQL
-- Excel
+## Objectives
 
-Current Phase
+- Data Cleaning
+- ETL Pipeline
+- PostgreSQL Database Design
+- SQL Analytics
+- Python EDA
+- Forecasting
+- Power BI Dashboard
+- Business Insight
+
+
+## Tech Stack
+
+- PostgreSQL
+- SQL
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Power BI
+- Excel
+- Git & GitHub
+
+## Project Status
 
 Phase 1 — Project Setup
