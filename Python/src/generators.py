@@ -9,19 +9,26 @@ from faker import Faker
 import pandas as pd
 import random
 
-fake = Faker("en_IN")   # Indian locale
+fake = Faker("en_IN")  # Indian locale
 
+
+# ==========================================================
+# Customer Generator
+# ==========================================================
 
 def generate_customers(count: int) -> pd.DataFrame:
-    
     """
     Generate synthetic customer data.
 
-    Parameters:
-        count (int): Number of customers to generate.
+    Parameters
+    ----------
+    count : int
+        Number of customers to generate.
 
-    Returns:
-        pd.DataFrame: Customer dataset.
+    Returns
+    -------
+    pd.DataFrame
+        Customer dataset.
     """
 
     customers = []
@@ -41,14 +48,167 @@ def generate_customers(count: int) -> pd.DataFrame:
             "join_date": fake.date_between(
                 start_date="-5y",
                 end_date="today"
-            )
+            ),
         }
 
         customers.append(customer)
-    
-    customers_df = pd.DataFrame(customers)
 
+    customers_df = pd.DataFrame(customers)
     customers_df["join_date"] = pd.to_datetime(customers_df["join_date"])
 
     return customers_df
 
+
+# ==========================================================
+# Product Configuration
+# ==========================================================
+
+PRODUCT_CATALOG = {
+
+    "Electronics": {
+        "brands": ["Apple", "Samsung", "Sony", "Dell", "HP"],
+        "products": [
+            "Laptop",
+            "Smartphone",
+            "Monitor",
+            "Tablet",
+            "Smartwatch",
+            "Headphones",
+        ],
+        "price_range": (10000, 150000),
+    },
+
+    "Furniture": {
+        "brands": ["IKEA", "Godrej", "Nilkamal"],
+        "products": [
+            "Office Chair",
+            "Dining Table",
+            "Wardrobe",
+            "Bookshelf",
+            "Study Desk",
+        ],
+        "price_range": (2000, 80000),
+    },
+
+    "Clothing": {
+        "brands": ["Nike", "Adidas", "Puma", "Levi's"],
+        "products": [
+            "T-Shirt",
+            "Jeans",
+            "Jacket",
+            "Sneakers",
+            "Hoodie",
+        ],
+        "price_range": (500, 8000),
+    },
+
+    "Groceries": {
+        "brands": ["Amul", "Nestle", "Britannia"],
+        "products": [
+            "Milk",
+            "Bread",
+            "Coffee",
+            "Butter",
+            "Biscuits",
+        ],
+        "price_range": (20, 2000),
+    },
+
+    "Books": {
+        "brands": ["Penguin", "Pearson", "O'Reilly"],
+        "products": [
+            "Python Programming",
+            "SQL Fundamentals",
+            "Data Science",
+            "Machine Learning",
+            "Business Analytics",
+        ],
+        "price_range": (150, 3000),
+    },
+}
+
+
+SKU_PREFIX = {
+    "Electronics": "ELE",
+    "Furniture": "FUR",
+    "Clothing": "CLO",
+    "Groceries": "GRO",
+    "Books": "BOO",
+}
+
+
+# ==========================================================
+# Product Generator
+# ==========================================================
+
+def generate_products(count: int) -> pd.DataFrame:
+    """
+    Generate synthetic product data.
+
+    Parameters
+    ----------
+    count : int
+        Number of products to generate.
+
+    Returns
+    -------
+    pd.DataFrame
+        Product dataset.
+    """
+
+    products = []
+
+    for i in range(1, count + 1):
+
+        # Select category
+        category = random.choice(list(PRODUCT_CATALOG.keys()))
+        category_info = PRODUCT_CATALOG[category]
+
+        # Brand & Product
+        brand = random.choice(category_info["brands"])
+        product_name = random.choice(category_info["products"])
+
+        # Pricing
+        min_price, max_price = category_info["price_range"]
+
+        unit_price = round(
+            random.uniform(min_price, max_price),
+            2,
+        )
+
+        cost_price = round(
+            unit_price * random.uniform(0.70, 0.90),
+            2,
+        )
+
+        # Inventory
+        stock_quantity = random.randint(0, 500)
+        reorder_level = random.randint(10, 50)
+
+        # Product Status
+        status = (
+            "Active"
+            if stock_quantity > 0
+            else "Out of Stock"
+        )
+
+        # SKU
+        sku = f"{SKU_PREFIX[category]}-{i:06d}"
+
+        # Product Record
+        product = {
+            "product_id": i,
+            "sku": sku,
+            "product_name": product_name,
+            "category": category,
+            "brand": brand,
+            "unit_price": unit_price,
+            "cost_price": cost_price,
+            "stock_quantity": stock_quantity,
+            "reorder_level": reorder_level,
+            "status": status,
+        }
+
+        products.append(product)
+
+    return pd.DataFrame(products)

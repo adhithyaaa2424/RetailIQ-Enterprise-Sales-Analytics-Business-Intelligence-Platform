@@ -129,3 +129,201 @@ def run_customer_validations(df: pd.DataFrame) -> None:
     print("=" * 50)
     print("Customer Validation Pipeline Completed")
     print("=" * 50)
+    
+    
+    
+def validate_product_missing_values(df: pd.DataFrame) -> None:
+    """
+    Check for missing values in the product dataset.
+    """
+
+    print("=" * 50)
+    print("Product Missing Value Validation")
+    print("=" * 50)
+
+    missing = df.isnull().sum()
+
+    if missing.sum() == 0:
+        print("✅ No missing values found.")
+    else:
+        print("❌ Missing values detected:")
+        print(missing[missing > 0])
+
+    print()
+    
+
+
+def validate_duplicate_sku(df):
+    """
+    Check duplicate SKU values.
+    """
+
+    print("=" * 50)
+    print("Checking Duplicate SKU")
+
+    duplicates = df[df["sku"].duplicated()]
+
+    if len(duplicates) > 0:
+        print("❌ Duplicate SKU found")
+        print(duplicates)
+
+    else:
+        print("✅ No duplicate SKU found")
+
+    print("=" * 50)
+    
+    
+    
+def validate_duplicate_product_id(df):
+    """
+    Check duplicate product IDs.
+    """
+
+    print("=" * 50)
+    print("Checking Duplicate Product ID")
+
+    duplicates = df[df["product_id"].duplicated()]
+
+    if len(duplicates) > 0:
+        print("❌ Duplicate product_id found")
+        print(duplicates)
+
+    else:
+        print("✅ No duplicate product_id found")
+
+    print("=" * 50)
+    
+    
+def validate_price_columns(df):
+    """
+    Validate product pricing rules.
+    Cost price should be less than unit price.
+    """
+
+    print("=" * 50)
+    print("Checking Price Validation")
+
+    invalid_prices = df[df["cost_price"] >= df["unit_price"]]
+
+    if len(invalid_prices) > 0:
+        print("❌ Invalid price relationship found")
+        print(invalid_prices)
+
+    else:
+        print("✅ All prices are valid")
+
+    print("=" * 50)
+    
+    
+def validate_categories(df):
+    """
+    Validate product categories.
+    """
+
+    print("=" * 50)
+    print("Checking Product Categories")
+
+    allowed_categories = [
+        "Electronics",
+        "Furniture",
+        "Clothing",
+        "Groceries",
+        "Books"
+    ]
+
+    invalid_categories = df[
+        ~df["category"].isin(allowed_categories)
+    ]
+
+    if len(invalid_categories) > 0:
+        print("❌ Invalid categories found")
+        print(invalid_categories)
+
+    else:
+        print("✅ All categories are valid")
+
+    print("=" * 50)
+    
+    
+    
+def validate_status(df):
+    """
+    Validate product status based on stock quantity.
+    """
+
+    print("=" * 50)
+    print("Checking Product Status")
+
+    invalid_status = df[
+        (
+            (df["stock_quantity"] > 0) &
+            (df["status"] != "Active")
+        )
+        |
+        (
+            (df["stock_quantity"] == 0) &
+            (df["status"] != "Out of Stock")
+        )
+    ]
+
+    if len(invalid_status) > 0:
+        print("❌ Invalid status found")
+        print(invalid_status)
+
+    else:
+        print("✅ All statuses are valid")
+
+    print("=" * 50)
+    
+    
+def validate_stock(df):
+    """
+    Validate stock quantity and reorder level.
+    """
+
+    print("=" * 50)
+    print("Checking Stock Validation")
+
+    invalid_stock = df[
+        (df["stock_quantity"] < 0) |
+        (df["reorder_level"] < 0)
+    ]
+
+    if len(invalid_stock) > 0:
+        print("❌ Invalid stock values found")
+        print(invalid_stock)
+
+    else:
+        print("✅ All stock values are valid")
+
+    print("=" * 50)
+    
+    
+    
+def run_product_validations(df):
+    """
+    Run complete product validation pipeline.
+    """
+
+    print("\n")
+    print("#" * 60)
+    print("PRODUCT VALIDATION PIPELINE STARTED")
+    print("#" * 60)
+
+    validate_product_missing_values(df)
+
+    validate_duplicate_sku(df)
+
+    validate_duplicate_product_id(df)
+
+    validate_price_columns(df)
+
+    validate_categories(df)
+
+    validate_status(df)
+
+    validate_stock(df)
+
+    print("#" * 60)
+    print("PRODUCT VALIDATION PIPELINE COMPLETED")
+    print("#" * 60)
