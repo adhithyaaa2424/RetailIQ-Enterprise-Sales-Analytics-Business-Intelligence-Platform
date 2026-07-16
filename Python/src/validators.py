@@ -496,3 +496,50 @@ def run_employee_validations(employees_df):
     validate_employee_hire_dates(employees_df)
 
     print("\n✅ Employee validation completed.")
+    
+    
+    
+"""
+Date Dimension Validation
+"""
+
+import pandas as pd
+
+
+def validate_date_missing_values(df: pd.DataFrame) -> None:
+    """Check for missing values."""
+
+    if df.isnull().sum().sum() == 0:
+        print("✅ No missing values found.")
+    else:
+        print("❌ Missing values detected.")
+
+
+def validate_duplicate_dates(df: pd.DataFrame) -> None:
+    """Check duplicate date keys."""
+
+    if df["date_key"].duplicated().any():
+        print("❌ Duplicate date keys found.")
+    else:
+        print("✅ No duplicate date keys found.")
+
+
+def validate_date_range(df: pd.DataFrame) -> None:
+    """Validate generated date range."""
+
+    if df["full_date"].min() <= df["full_date"].max():
+        print("✅ Date range is valid.")
+    else:
+        print("❌ Invalid date range.")
+
+
+def run_date_validations(df: pd.DataFrame) -> None:
+    """Run all date dimension validations."""
+
+    print("\nRunning Date Dimension Validations...\n")
+
+    validate_date_missing_values(df)
+    validate_duplicate_dates(df)
+    validate_date_range(df)
+
+    print("\n✅ Date Dimension validation completed.")

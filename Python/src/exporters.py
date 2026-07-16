@@ -1,3 +1,9 @@
+"""
+RetailIQ Export Utilities
+-------------------------
+Reusable functions for exporting DataFrames to CSV files.
+"""
+
 from pathlib import Path
 import pandas as pd
 
@@ -10,53 +16,29 @@ def export_to_csv(
     """
     Export a DataFrame to a CSV file.
 
-    Parameters:
-        df (pd.DataFrame): DataFrame to export.
-        file_name (str): Name of the CSV file.
-        output_dir (Path): Directory where the file will be saved.
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame to export.
+
+    file_name : str
+        Name of the CSV file.
+
+    output_dir : Path
+        Directory where the CSV file will be saved.
     """
 
-    # Create the directory if it doesn't exist
+    # Create output directory if it doesn't exist
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Construct the full file path
+    # Create full file path
     file_path = output_dir / file_name
 
-    # Export the DataFrame
+    # Export DataFrame
     df.to_csv(file_path, index=False)
 
-    print("=" * 50)
-    print(f"Dataset exported successfully!")
-    print(f"Location: {file_path}")
-    print("=" * 50)
-    
-    
-"""
-RetailIQ Export Utilities
-"""
-
-from pathlib import Path
-
-
-def export_dataframe(df, filename):
-    """
-    Export dataframe to CSV file.
-    """
-
-    export_path = Path("../exports")
-
-    export_path.mkdir(
-        exist_ok=True
-    )
-
-    file_path = export_path / filename
-
-    df.to_csv(
-        file_path,
-        index=False
-    )
-
-    print("=" * 50)
-    print("Export Completed Successfully")
-    print(f"File: {file_path}")
-    print("=" * 50)
+    print("=" * 60)
+    print("✅ Dataset exported successfully!")
+    print(f"📁 File Name : {file_name}")
+    print(f"📂 Location  : {file_path.resolve()}")
+    print("=" * 60)

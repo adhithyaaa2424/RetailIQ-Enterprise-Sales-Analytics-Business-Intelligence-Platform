@@ -407,3 +407,68 @@ def generate_employees(count: int) -> pd.DataFrame:
 
 
 
+import pandas as pd
+
+
+def generate_date_dimension(
+    start_date: str,
+    end_date: str
+) -> pd.DataFrame:
+    """
+    Generate a Date Dimension table.
+    """
+
+    dates = pd.date_range(
+        start=start_date,
+        end=end_date,
+        freq="D"
+    )
+
+    date_df = pd.DataFrame({
+        "full_date": dates
+    })
+
+    date_df["date_key"] = (
+        date_df["full_date"]
+        .dt.strftime("%Y%m%d")
+        .astype(int)
+    )
+
+    date_df["year"] = date_df["full_date"].dt.year
+
+    date_df["quarter"] = date_df["full_date"].dt.quarter
+
+    date_df["month"] = date_df["full_date"].dt.month
+
+    date_df["month_name"] = date_df["full_date"].dt.month_name()
+
+    date_df["week"] = (
+        date_df["full_date"]
+        .dt.isocalendar()
+        .week
+        .astype(int)
+    )
+
+    date_df["day"] = date_df["full_date"].dt.day
+
+    date_df["day_name"] = date_df["full_date"].dt.day_name()
+
+    date_df["is_weekend"] = (
+        date_df["full_date"]
+        .dt.dayofweek >= 5
+    )
+
+    return date_df[
+        [
+            "date_key",
+            "full_date",
+            "year",
+            "quarter",
+            "month",
+            "month_name",
+            "week",
+            "day",
+            "day_name",
+            "is_weekend",
+        ]
+    ]
