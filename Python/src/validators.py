@@ -356,3 +356,66 @@ def run_product_validations(df):
     print("\n" + "=" * 60)
     print("PRODUCT VALIDATION PIPELINE COMPLETED")
     print("=" * 60)
+    
+    
+# ==========================================================
+# Inventory Validators
+# ==========================================================
+
+def validate_inventory_missing_values(df):
+    """
+    Check for missing values in the inventory dataset.
+    """
+
+    print("=" * 50)
+    print("Inventory Missing Value Validation")
+    print("=" * 50)
+
+    missing = df.isnull().sum()
+
+    if missing.sum() == 0:
+        print("✅ No missing values found.")
+    else:
+        print("❌ Missing values detected:")
+        print(missing[missing > 0])
+
+    print()
+
+
+def validate_inventory_stock(df):
+    """
+    Validate stock quantity and reorder level.
+    """
+
+    print("=" * 50)
+    print("Checking Inventory Stock")
+
+    invalid = df[
+        (df["stock_quantity"] < 0) |
+        (df["reorder_level"] < 0)
+    ]
+
+    if len(invalid) == 0:
+        print("✅ Inventory stock is valid.")
+    else:
+        print("❌ Invalid inventory records found.")
+        print(invalid)
+
+    print("=" * 50)
+
+
+def run_inventory_validations(df):
+    """
+    Run complete inventory validation pipeline.
+    """
+
+    print("\n" + "=" * 60)
+    print("INVENTORY VALIDATION PIPELINE STARTED")
+    print("=" * 60)
+
+    validate_inventory_missing_values(df)
+    validate_inventory_stock(df)
+
+    print("\n" + "=" * 60)
+    print("INVENTORY VALIDATION PIPELINE COMPLETED")
+    print("=" * 60)

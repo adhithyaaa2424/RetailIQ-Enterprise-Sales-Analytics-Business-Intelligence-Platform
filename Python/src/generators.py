@@ -212,3 +212,91 @@ def generate_products(count: int) -> pd.DataFrame:
         products.append(product)
 
     return pd.DataFrame(products)
+
+
+
+# ==========================================================
+# Inventory Configuration
+# ==========================================================
+
+WAREHOUSES = [
+    "Chennai Warehouse",
+    "Bengaluru Warehouse",
+    "Mumbai Warehouse",
+    "Hyderabad Warehouse",
+    "Delhi Warehouse",
+]
+
+
+# ==========================================================
+# Inventory Generator
+# ==========================================================
+
+def generate_inventory(products_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Generate synthetic inventory data.
+
+    Parameters
+    ----------
+    products_df : pd.DataFrame
+        Product dataset.
+
+    Returns
+    -------
+    pd.DataFrame
+        Inventory dataset.
+    """
+
+    inventory = []
+
+    for _, product in products_df.iterrows():
+
+        stock_quantity = random.randint(0, 500)
+
+        reorder_level = random.randint(10, 50)
+
+        inventory_record = {
+
+            "product_id": product["product_id"],
+
+            "warehouse": random.choice(WAREHOUSES),
+
+            "stock_quantity": stock_quantity,
+
+            "reorder_level": reorder_level,
+
+            "last_stock_update": fake.date_between(
+                start_date="-1y",
+                end_date="today"
+            ),
+
+            "is_active": stock_quantity > 0,
+
+            "created_at": fake.date_time_between(
+                start_date="-1y",
+                end_date="-30d"
+            ),
+
+            "updated_at": fake.date_time_between(
+                start_date="-30d",
+                end_date="now"
+            ),
+        }
+
+        inventory.append(inventory_record)
+
+    inventory_df = pd.DataFrame(inventory)
+
+    inventory_df["last_stock_update"] = pd.to_datetime(
+        inventory_df["last_stock_update"]
+    )
+
+    inventory_df["created_at"] = pd.to_datetime(
+        inventory_df["created_at"]
+    )
+
+    inventory_df["updated_at"] = pd.to_datetime(
+        inventory_df["updated_at"]
+    )
+
+    return inventory_df
