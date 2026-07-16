@@ -1,0 +1,301 @@
+employee_id,first_name,last_name,email,phone,branch,designation,manager_name,hire_date,is_active
+1,Hredhaan,Tandon,hredhaan.tandon.300@retailiq.com,6840254577,Coimbatore,Cashier,Karthik Raj,2019-12-23,True
+2,Sai,Bedi,sai.bedi.113@retailiq.com,2407198822,Bengaluru,Inventory Executive,Sneha Reddy,2023-01-27,True
+3,Unnati,Tara,unnati.tara.328@retailiq.com,3331943278,Delhi,Store Manager,Karthik Raj,2019-07-14,True
+4,Vyanjana,Dara,vyanjana.dara.640@retailiq.com,2295093073,Delhi,Branch Manager,Arjun Nair,2016-09-05,True
+5,Ridhi,Varughese,ridhi.varughese.424@retailiq.com,8902467005,Chennai,Store Manager,Ravi Kumar,2020-10-05,True
+6,Luke,Mandal,luke.mandal.695@retailiq.com,0259164677,Delhi,HR Executive,Karthik Raj,2019-09-25,True
+7,Raghav,Kalita,raghav.kalita.813@retailiq.com,6324207479,Coimbatore,Store Manager,Sneha Reddy,2025-02-04,True
+8,Neha,Roy,neha.roy.838@retailiq.com,4040943365,Mumbai,HR Executive,Ravi Kumar,2024-02-23,True
+9,Bakhshi,Batta,bakhshi.batta.484@retailiq.com,1298820436,Bengaluru,Store Manager,Sneha Reddy,2021-04-29,True
+10,Kai,Agrawal,kai.agrawal.767@retailiq.com,3058325417,Hyderabad,Regional Manager,Sneha Reddy,2025-12-26,True
+11,Hamsini,Wadhwa,hamsini.wadhwa.685@retailiq.com,0596298646,Coimbatore,Inventory Executive,Ravi Kumar,2017-03-06,True
+12,Wishi,Vala,wishi.vala.908@retailiq.com,7866570951,Hyderabad,Regional Manager,Ravi Kumar,2020-01-15,False
+13,Dhriti,Wable,dhriti.wable.224@retailiq.com,2901722874,Bengaluru,Regional Manager,Ravi Kumar,2024-05-18,True
+14,Darpan,Choudhary,darpan.choudhary.988@retailiq.com,4048224988,Chennai,Inventory Executive,Karthik Raj,2024-12-03,True
+15,Robert,Rout,robert.rout.715@retailiq.com,7802279996,Hyderabad,HR Executive,Karthik Raj,2024-09-06,True
+16,Charan,Panchal,charan.panchal.601@retailiq.com,1816714828,Mumbai,Inventory Executive,Priya Sharma,2016-12-19,True
+17,Sanaya,Khatri,sanaya.khatri.868@retailiq.com,9919437112,Chennai,Inventory Executive,Arjun Nair,2018-05-31,True
+18,Peter,Kant,peter.kant.777@retailiq.com,8391270966,Bengaluru,Store Manager,Ravi Kumar,2025-11-09,True
+19,Vamakshi,Krishna,vamakshi.krishna.868@retailiq.com,9639833733,Mumbai,Cashier,Arjun Nair,2019-03-08,True
+20,Anita,Thakkar,anita.thakkar.561@retailiq.com,4453696813,Coimbatore,Cashier,Priya Sharma,2025-03-16,False
+21,Urvi,Sarraf,urvi.sarraf.204@retailiq.com,9337460031,Mumbai,Cashier,Arjun Nair,2022-07-24,True
+22,Dominic,Panchal,dominic.panchal.839@retailiq.com,4451422569,Coimbatore,Inventory Executive,Ravi Kumar,2020-04-09,True
+23,Anjali,Chandran,anjali.chandran.209@retailiq.com,9443922982,Mumbai,Regional Manager,Sneha Reddy,2019-07-28,True
+24,Nachiket,Dave,nachiket.dave.138@retailiq.com,1953006020,Chennai,HR Executive,Ravi Kumar,2022-05-13,True
+25,Mugdha,Sangha,mugdha.sangha.386@retailiq.com,2529768870,Coimbatore,Branch Manager,Priya Sharma,2024-01-13,True
+26,Urishilla,Dugal,urishilla.dugal.787@retailiq.com,8260914329,Bengaluru,Branch Manager,Sneha Reddy,2023-02-02,True
+27,Damyanti,Bawa,damyanti.bawa.937@retailiq.com,1645328758,Delhi,Store Manager,Karthik Raj,2020-01-26,True
+28,Raksha,Mishra,raksha.mishra.424@retailiq.com,6544257700,Delhi,Sales Executive,Karthik Raj,2019-10-09,True
+29,Ekavir,Kale,ekavir.kale.838@retailiq.com,3961509978,Coimbatore,HR Executive,Arjun Nair,2017-12-28,True
+30,Pahal,Aurora,pahal.aurora.533@retailiq.com,5586763164,Coimbatore,Sales Executive,Arjun Nair,2023-09-29,True
+31,Manan,Bhat,manan.bhat.193@retailiq.com,2999100553,Delhi,Sales Executive,Priya Sharma,2025-11-26,True
+32,Advik,Dutt,advik.dutt.710@retailiq.com,7954596540,Chennai,HR Executive,Arjun Nair,2016-07-23,True
+33,Zaid,Vasa,zaid.vasa.802@retailiq.com,2501891963,Hyderabad,Sales Executive,Karthik Raj,2018-06-11,True
+34,Kavya,Kade,kavya.kade.482@retailiq.com,3860563447,Hyderabad,Cashier,Ravi Kumar,2017-05-04,True
+35,Saanvi,Krish,saanvi.krish.267@retailiq.com,9834866432,Coimbatore,Inventory Executive,Priya Sharma,2017-07-11,True
+36,Suhani,Pingle,suhani.pingle.519@retailiq.com,8418391753,Bengaluru,Sales Executive,Karthik Raj,2021-12-20,True
+37,Kashish,Dhawan,kashish.dhawan.825@retailiq.com,4802273014,Mumbai,Regional Manager,Arjun Nair,2024-04-02,True
+38,Krish,Dixit,krish.dixit.498@retailiq.com,4127495899,Chennai,Store Manager,Arjun Nair,2023-07-31,True
+39,Yahvi,Badami,yahvi.badami.260@retailiq.com,1181463460,Delhi,HR Executive,Ravi Kumar,2019-06-19,True
+40,Tanish,Mander,tanish.mander.899@retailiq.com,7533840047,Bengaluru,Branch Manager,Ravi Kumar,2018-06-11,False
+41,Arjun,Kanda,arjun.kanda.748@retailiq.com,6410971084,Hyderabad,HR Executive,Arjun Nair,2018-04-28,True
+42,Ishani,Dhaliwal,ishani.dhaliwal.661@retailiq.com,4498191877,Delhi,HR Executive,Ravi Kumar,2019-01-07,True
+43,Ira,Rege,ira.rege.759@retailiq.com,8360446283,Mumbai,Branch Manager,Karthik Raj,2017-02-18,True
+44,Samuel,Balasubramanian,samuel.balasubramanian.235@retailiq.com,7340840003,Hyderabad,Branch Manager,Ravi Kumar,2022-05-14,True
+45,Mekhala,Bail,mekhala.bail.904@retailiq.com,6787847548,Mumbai,Branch Manager,Karthik Raj,2019-07-20,True
+46,Bina,Bir,bina.bir.823@retailiq.com,7871169124,Chennai,Branch Manager,Karthik Raj,2023-07-23,True
+47,Sathvik,Kala,sathvik.kala.368@retailiq.com,0439625314,Coimbatore,Store Manager,Arjun Nair,2018-04-05,True
+48,Abhimanyu,Mistry,abhimanyu.mistry.860@retailiq.com,5488534026,Hyderabad,Cashier,Sneha Reddy,2019-11-07,True
+49,Zilmil,Basu,zilmil.basu.224@retailiq.com,6975421609,Bengaluru,Branch Manager,Arjun Nair,2020-04-05,True
+50,Aayush,Bajaj,aayush.bajaj.251@retailiq.com,7547343506,Delhi,HR Executive,Sneha Reddy,2020-03-21,False
+51,Madhavi,Raja,madhavi.raja.827@retailiq.com,8468341345,Coimbatore,Store Manager,Ravi Kumar,2021-06-18,False
+52,Gauri,Apte,gauri.apte.270@retailiq.com,1205236902,Bengaluru,Branch Manager,Ravi Kumar,2024-12-11,True
+53,Nilima,Dubey,nilima.dubey.356@retailiq.com,9864917624,Mumbai,Branch Manager,Priya Sharma,2026-04-27,True
+54,Rehaan,Mitra,rehaan.mitra.824@retailiq.com,0768707352,Hyderabad,Store Manager,Karthik Raj,2016-07-18,True
+55,Hemal,Kala,hemal.kala.669@retailiq.com,9737277293,Hyderabad,Cashier,Ravi Kumar,2026-05-23,True
+56,Triveni,Mohanty,triveni.mohanty.218@retailiq.com,2438379804,Coimbatore,HR Executive,Sneha Reddy,2017-12-27,True
+57,Qadim,Batra,qadim.batra.223@retailiq.com,0413883457,Delhi,Cashier,Ravi Kumar,2025-01-30,True
+58,Omya,Khosla,omya.khosla.413@retailiq.com,5652209312,Bengaluru,Regional Manager,Sneha Reddy,2024-06-15,True
+59,Hardik,Doshi,hardik.doshi.731@retailiq.com,5337069766,Mumbai,Store Manager,Ravi Kumar,2019-12-22,True
+60,Yatan,Khalsa,yatan.khalsa.669@retailiq.com,0750957993,Mumbai,Inventory Executive,Sneha Reddy,2021-08-20,True
+61,Joshua,Raja,joshua.raja.467@retailiq.com,1303257684,Mumbai,Branch Manager,Arjun Nair,2021-08-19,True
+62,Chatura,Pathak,chatura.pathak.319@retailiq.com,5630641008,Mumbai,Branch Manager,Ravi Kumar,2020-05-31,False
+63,Mohammed,Dubey,mohammed.dubey.903@retailiq.com,2044572833,Chennai,HR Executive,Sneha Reddy,2018-03-07,True
+64,Udarsh,Goel,udarsh.goel.244@retailiq.com,8411082744,Mumbai,Store Manager,Ravi Kumar,2016-08-22,True
+65,Charita,Sheth,charita.sheth.491@retailiq.com,4757304263,Chennai,Sales Executive,Ravi Kumar,2026-05-28,True
+66,Harini,Tella,harini.tella.734@retailiq.com,8701442387,Coimbatore,Branch Manager,Ravi Kumar,2026-05-11,True
+67,Rushil,Batra,rushil.batra.704@retailiq.com,1619697198,Bengaluru,Branch Manager,Priya Sharma,2019-10-26,True
+68,George,Mukhopadhyay,george.mukhopadhyay.572@retailiq.com,9453868834,Coimbatore,Inventory Executive,Sneha Reddy,2020-09-07,True
+69,Aarnav,Pandya,aarnav.pandya.853@retailiq.com,5915974767,Coimbatore,Store Manager,Arjun Nair,2019-03-19,True
+70,Tanay,Karnik,tanay.karnik.428@retailiq.com,8930194387,Mumbai,Inventory Executive,Karthik Raj,2021-03-10,True
+71,Daksha,Raj,daksha.raj.413@retailiq.com,8628879438,Chennai,Store Manager,Karthik Raj,2025-07-23,False
+72,Madhav,Murthy,madhav.murthy.182@retailiq.com,2493937193,Mumbai,HR Executive,Priya Sharma,2018-07-11,True
+73,Guneet,Vala,guneet.vala.159@retailiq.com,4104945320,Coimbatore,Inventory Executive,Arjun Nair,2023-10-07,True
+74,Parth,Padmanabhan,parth.padmanabhan.623@retailiq.com,2732156229,Hyderabad,Inventory Executive,Arjun Nair,2019-03-16,True
+75,Chakradev,Khatri,chakradev.khatri.607@retailiq.com,7179138853,Hyderabad,Cashier,Arjun Nair,2020-03-21,True
+76,Upasna,Kunda,upasna.kunda.209@retailiq.com,5658143626,Bengaluru,Regional Manager,Ravi Kumar,2022-07-30,True
+77,Omkaar,Pant,omkaar.pant.326@retailiq.com,1496094430,Delhi,Inventory Executive,Arjun Nair,2024-04-18,True
+78,Sai,Cheema,sai.cheema.657@retailiq.com,3817450365,Hyderabad,Regional Manager,Arjun Nair,2025-07-31,True
+79,Unni,Sunder,unni.sunder.107@retailiq.com,6358357828,Hyderabad,HR Executive,Priya Sharma,2018-07-01,True
+80,Mohini,Saini,mohini.saini.165@retailiq.com,3718891987,Hyderabad,Store Manager,Karthik Raj,2017-11-17,True
+81,Ekalinga,Dash,ekalinga.dash.368@retailiq.com,7604128827,Coimbatore,Cashier,Priya Sharma,2018-04-18,False
+82,Pahal,Anne,pahal.anne.414@retailiq.com,3423252886,Delhi,Sales Executive,Ravi Kumar,2020-06-11,True
+83,Aadhya,Ganesh,aadhya.ganesh.673@retailiq.com,7114762477,Coimbatore,Branch Manager,Priya Sharma,2019-03-30,True
+84,Frado,Nagy,frado.nagy.828@retailiq.com,8957045271,Delhi,Store Manager,Priya Sharma,2026-01-04,True
+85,Mitali,Rao,mitali.rao.226@retailiq.com,3594296901,Coimbatore,HR Executive,Priya Sharma,2025-03-04,True
+86,Max,Grover,max.grover.335@retailiq.com,5455886564,Chennai,Cashier,Karthik Raj,2024-09-15,True
+87,Faraj,Dube,faraj.dube.222@retailiq.com,6631052985,Mumbai,Cashier,Arjun Nair,2026-06-03,True
+88,Neel,Dhar,neel.dhar.601@retailiq.com,1839827094,Hyderabad,Inventory Executive,Karthik Raj,2020-03-08,True
+89,Leena,Bhatia,leena.bhatia.721@retailiq.com,8580725389,Delhi,Branch Manager,Sneha Reddy,2020-07-15,True
+90,Vasana,Badal,vasana.badal.493@retailiq.com,7501802271,Hyderabad,Inventory Executive,Sneha Reddy,2017-03-25,True
+91,Baghyawati,Tara,baghyawati.tara.767@retailiq.com,2406193325,Mumbai,HR Executive,Ravi Kumar,2020-01-01,True
+92,Rushil,Natt,rushil.natt.189@retailiq.com,9581456128,Bengaluru,HR Executive,Karthik Raj,2024-01-03,True
+93,Zaid,D’Alia,zaid.d’alia.537@retailiq.com,9978726292,Chennai,Inventory Executive,Ravi Kumar,2020-04-26,True
+94,Lakshmi,Zachariah,lakshmi.zachariah.749@retailiq.com,9373963808,Bengaluru,Store Manager,Sneha Reddy,2021-05-25,True
+95,Qarin,Sabharwal,qarin.sabharwal.756@retailiq.com,9733483907,Hyderabad,Store Manager,Priya Sharma,2018-11-08,True
+96,Dhriti,Ramakrishnan,dhriti.ramakrishnan.273@retailiq.com,9409309047,Chennai,Store Manager,Arjun Nair,2026-01-27,True
+97,Jason,Pradhan,jason.pradhan.906@retailiq.com,1207844862,Coimbatore,Inventory Executive,Priya Sharma,2024-02-05,True
+98,Fiyaz,Sawhney,fiyaz.sawhney.849@retailiq.com,8676621553,Chennai,Regional Manager,Karthik Raj,2021-06-12,True
+99,Anya,Ganesh,anya.ganesh.779@retailiq.com,9230572885,Bengaluru,Branch Manager,Priya Sharma,2022-09-26,True
+100,Gavin,Batta,gavin.batta.946@retailiq.com,2665085193,Bengaluru,HR Executive,Ravi Kumar,2025-08-17,True
+101,Yash,Mukhopadhyay,yash.mukhopadhyay.144@retailiq.com,0380394459,Coimbatore,Inventory Executive,Priya Sharma,2017-06-16,True
+102,Ria,Gupta,ria.gupta.544@retailiq.com,1769395339,Coimbatore,Branch Manager,Priya Sharma,2020-07-14,True
+103,Azaan,Agarwal,azaan.agarwal.249@retailiq.com,7476173631,Bengaluru,Sales Executive,Karthik Raj,2025-04-01,True
+104,Ijaya,Sharaf,ijaya.sharaf.176@retailiq.com,6484086683,Mumbai,Sales Executive,Karthik Raj,2022-10-01,True
+105,Bahadurjit,Dube,bahadurjit.dube.849@retailiq.com,4872543405,Chennai,Branch Manager,Karthik Raj,2018-05-20,True
+106,Radhika,Sagar,radhika.sagar.868@retailiq.com,1586956857,Delhi,Sales Executive,Ravi Kumar,2026-07-04,True
+107,Vinaya,Nayak,vinaya.nayak.705@retailiq.com,5296309260,Hyderabad,Branch Manager,Ravi Kumar,2022-03-26,True
+108,Yachana,Agate,yachana.agate.581@retailiq.com,5527265244,Mumbai,Cashier,Sneha Reddy,2025-05-30,True
+109,Harinakshi,Bahri,harinakshi.bahri.705@retailiq.com,1798630490,Coimbatore,Inventory Executive,Arjun Nair,2025-12-30,True
+110,Udarsh,Pant,udarsh.pant.401@retailiq.com,9379549133,Chennai,Regional Manager,Ravi Kumar,2021-09-06,True
+111,Maya,Mishra,maya.mishra.191@retailiq.com,0377905827,Chennai,Cashier,Karthik Raj,2024-01-04,True
+112,Max,Randhawa,max.randhawa.428@retailiq.com,9846511471,Chennai,HR Executive,Priya Sharma,2019-07-23,True
+113,Faris,Nagar,faris.nagar.241@retailiq.com,5571559218,Bengaluru,Store Manager,Karthik Raj,2024-10-18,True
+114,Edhitha,Oommen,edhitha.oommen.807@retailiq.com,1899137970,Chennai,Store Manager,Ravi Kumar,2023-04-18,True
+115,Akshay,Sankaran,akshay.sankaran.558@retailiq.com,1444120105,Coimbatore,Store Manager,Karthik Raj,2022-09-28,True
+116,Mekhala,Arya,mekhala.arya.394@retailiq.com,5052054994,Mumbai,Sales Executive,Arjun Nair,2020-09-20,True
+117,Atharv,Iyer,atharv.iyer.494@retailiq.com,6975337050,Mumbai,Cashier,Karthik Raj,2017-12-30,True
+118,Akshay,Deol,akshay.deol.647@retailiq.com,2081883264,Coimbatore,Store Manager,Arjun Nair,2025-03-26,True
+119,Harshil,Upadhyay,harshil.upadhyay.236@retailiq.com,1794529820,Delhi,HR Executive,Arjun Nair,2026-01-19,True
+120,Vincent,Arora,vincent.arora.835@retailiq.com,7334340596,Coimbatore,Regional Manager,Karthik Raj,2020-05-25,True
+121,Joshua,Bose,joshua.bose.706@retailiq.com,8022629955,Chennai,Inventory Executive,Karthik Raj,2019-10-09,True
+183,Ishani,Kala,ishani.kala.700@retailiq.com,6651003637,Hyderabad,Cashier,Sneha Reddy,2019-08-01,True
+122,Samarth,Srinivas,samarth.srinivas.736@retailiq.com,0319636368,Bengaluru,Inventory Executive,Priya Sharma,2023-09-07,True
+123,Chasmum,Iyengar,chasmum.iyengar.431@retailiq.com,1441259431,Coimbatore,Store Manager,Karthik Raj,2026-03-16,True
+124,Saksham,Subramaniam,saksham.subramaniam.559@retailiq.com,9120506633,Hyderabad,Sales Executive,Karthik Raj,2024-02-09,True
+125,Yoshita,Bains,yoshita.bains.695@retailiq.com,0626611686,Hyderabad,Inventory Executive,Arjun Nair,2022-05-02,True
+126,Jagat,Ganguly,jagat.ganguly.343@retailiq.com,2424844689,Chennai,Regional Manager,Arjun Nair,2026-02-23,True
+127,Liam,Batta,liam.batta.280@retailiq.com,2784415410,Bengaluru,Cashier,Sneha Reddy,2019-05-17,True
+128,Yuvraj,Sharma,yuvraj.sharma.179@retailiq.com,4888030385,Mumbai,Sales Executive,Arjun Nair,2026-05-25,False
+129,Vanya,Arora,vanya.arora.449@retailiq.com,6437478718,Coimbatore,Sales Executive,Arjun Nair,2019-11-30,False
+130,Krish,Babu,krish.babu.721@retailiq.com,9802191898,Bengaluru,Branch Manager,Sneha Reddy,2016-11-12,True
+131,Jagvi,Hora,jagvi.hora.512@retailiq.com,6864731217,Bengaluru,Store Manager,Arjun Nair,2019-06-24,True
+132,Aashi,Puri,aashi.puri.779@retailiq.com,4726671992,Coimbatore,Regional Manager,Karthik Raj,2018-07-04,True
+133,Warda,Sarna,warda.sarna.571@retailiq.com,1143938289,Coimbatore,Cashier,Ravi Kumar,2023-02-13,True
+134,Onveer,Bora,onveer.bora.260@retailiq.com,6534355939,Delhi,Regional Manager,Ravi Kumar,2023-08-23,True
+135,Mugdha,Garde,mugdha.garde.946@retailiq.com,2492350172,Delhi,Inventory Executive,Karthik Raj,2021-08-16,True
+136,Warda,Pradhan,warda.pradhan.674@retailiq.com,5493458239,Chennai,Sales Executive,Arjun Nair,2018-03-04,True
+137,Kabir,Singhal,kabir.singhal.802@retailiq.com,6670862986,Bengaluru,Cashier,Ravi Kumar,2022-04-03,True
+138,Kala,Majumdar,kala.majumdar.474@retailiq.com,2322635197,Chennai,Cashier,Priya Sharma,2024-08-26,False
+139,Veer,Sarin,veer.sarin.816@retailiq.com,3515047073,Mumbai,Branch Manager,Ravi Kumar,2021-07-21,False
+140,Leena,Bandi,leena.bandi.562@retailiq.com,3140259233,Delhi,Branch Manager,Karthik Raj,2017-02-02,True
+141,Akshay,Ravi,akshay.ravi.827@retailiq.com,7199542912,Hyderabad,HR Executive,Priya Sharma,2024-11-03,True
+142,Siya,Sastry,siya.sastry.954@retailiq.com,0410518769,Chennai,Cashier,Priya Sharma,2025-07-27,True
+143,Chameli,Chana,chameli.chana.608@retailiq.com,1280055572,Mumbai,Sales Executive,Sneha Reddy,2025-10-18,True
+144,Pranit,Thaker,pranit.thaker.652@retailiq.com,6919459160,Delhi,HR Executive,Ravi Kumar,2026-04-19,True
+145,Aashi,Mishra,aashi.mishra.916@retailiq.com,9573624106,Delhi,Inventory Executive,Sneha Reddy,2022-02-09,True
+146,Urvashi,Nagar,urvashi.nagar.988@retailiq.com,7377209766,Hyderabad,Branch Manager,Priya Sharma,2023-12-12,True
+147,Gabriel,Dave,gabriel.dave.334@retailiq.com,9044093221,Delhi,HR Executive,Karthik Raj,2017-01-14,True
+148,Gavin,Gera,gavin.gera.870@retailiq.com,9503886156,Coimbatore,Regional Manager,Ravi Kumar,2017-12-26,True
+149,Wridesh,Ganesh,wridesh.ganesh.399@retailiq.com,9685478686,Coimbatore,Sales Executive,Arjun Nair,2017-02-01,True
+150,Kai,Boase,kai.boase.124@retailiq.com,1036472201,Bengaluru,HR Executive,Karthik Raj,2022-09-02,True
+151,Gaurang,Dass,gaurang.dass.745@retailiq.com,0399840048,Coimbatore,Cashier,Ravi Kumar,2023-08-03,True
+152,Vrishti,Ram,vrishti.ram.437@retailiq.com,5953865768,Bengaluru,Cashier,Arjun Nair,2019-07-28,True
+153,Siddharth,Rana,siddharth.rana.563@retailiq.com,0454275949,Chennai,Inventory Executive,Sneha Reddy,2018-10-29,True
+154,Mohammed,Natarajan,mohammed.natarajan.105@retailiq.com,4551123245,Chennai,Branch Manager,Karthik Raj,2018-05-05,True
+155,Ishita,Vala,ishita.vala.222@retailiq.com,9661826016,Mumbai,Sales Executive,Ravi Kumar,2020-09-02,False
+156,Gagan,Varghese,gagan.varghese.516@retailiq.com,0094642871,Coimbatore,Cashier,Ravi Kumar,2016-09-14,True
+157,Indira,Khatri,indira.khatri.417@retailiq.com,0910522738,Chennai,Regional Manager,Priya Sharma,2023-08-09,True
+158,Lakshmi,Behl,lakshmi.behl.414@retailiq.com,0349275927,Bengaluru,Inventory Executive,Arjun Nair,2024-09-21,True
+159,Kevin,Balasubramanian,kevin.balasubramanian.808@retailiq.com,1591549617,Bengaluru,HR Executive,Sneha Reddy,2026-05-26,True
+160,Kashvi,Tandon,kashvi.tandon.961@retailiq.com,1422878831,Bengaluru,HR Executive,Arjun Nair,2020-02-06,False
+161,Daksh,Ahuja,daksh.ahuja.898@retailiq.com,6275677700,Delhi,Branch Manager,Ravi Kumar,2020-05-09,True
+162,Abdul,Kadakia,abdul.kadakia.755@retailiq.com,3021293529,Hyderabad,HR Executive,Sneha Reddy,2026-06-27,True
+163,Orinder,Bedi,orinder.bedi.408@retailiq.com,6452673038,Hyderabad,Regional Manager,Karthik Raj,2018-07-18,True
+164,Lohit,Nayak,lohit.nayak.302@retailiq.com,6434086508,Chennai,Cashier,Priya Sharma,2017-03-09,True
+165,Alka,Kalla,alka.kalla.358@retailiq.com,2268404284,Mumbai,Sales Executive,Sneha Reddy,2022-09-02,True
+166,Vedika,Shankar,vedika.shankar.602@retailiq.com,7496958561,Coimbatore,HR Executive,Priya Sharma,2021-10-19,True
+167,Oviya,Gala,oviya.gala.738@retailiq.com,1100183774,Delhi,Cashier,Priya Sharma,2023-02-02,True
+168,Nidra,Bobal,nidra.bobal.248@retailiq.com,1470728066,Hyderabad,HR Executive,Arjun Nair,2021-01-12,True
+169,Aarna,Maharaj,aarna.maharaj.909@retailiq.com,6633509768,Mumbai,Cashier,Ravi Kumar,2024-04-24,True
+170,Veer,Kibe,veer.kibe.190@retailiq.com,0560344043,Hyderabad,Inventory Executive,Sneha Reddy,2018-08-26,True
+171,Pranit,Dhar,pranit.dhar.391@retailiq.com,6982851363,Bengaluru,HR Executive,Arjun Nair,2019-05-10,True
+172,Vrinda,De,vrinda.de.248@retailiq.com,9713479960,Coimbatore,Inventory Executive,Arjun Nair,2018-04-20,True
+173,Edhitha,Kar,edhitha.kar.535@retailiq.com,8383135958,Mumbai,Inventory Executive,Ravi Kumar,2026-03-03,True
+174,Qasim,Chaudhry,qasim.chaudhry.175@retailiq.com,1807055147,Hyderabad,Store Manager,Karthik Raj,2023-11-04,False
+175,Leela,Kala,leela.kala.473@retailiq.com,0233720305,Mumbai,Store Manager,Sneha Reddy,2023-10-31,True
+176,Divya,Ramachandran,divya.ramachandran.514@retailiq.com,8472683927,Hyderabad,HR Executive,Arjun Nair,2025-11-27,True
+177,Pooja,Apte,pooja.apte.146@retailiq.com,2856642011,Bengaluru,Inventory Executive,Arjun Nair,2020-11-07,True
+178,Tripti,Vyas,tripti.vyas.176@retailiq.com,6691300008,Chennai,Cashier,Ravi Kumar,2019-09-04,True
+179,Bhanumati,Badami,bhanumati.badami.458@retailiq.com,6066456517,Chennai,Regional Manager,Sneha Reddy,2016-08-16,True
+180,Jagvi,Chopra,jagvi.chopra.999@retailiq.com,0496845235,Hyderabad,Store Manager,Arjun Nair,2019-06-28,True
+181,Eta,Mammen,eta.mammen.788@retailiq.com,6414978883,Hyderabad,Branch Manager,Ravi Kumar,2026-04-01,True
+182,Advay,Mannan,advay.mannan.420@retailiq.com,6675728487,Mumbai,Branch Manager,Karthik Raj,2020-08-10,True
+184,Eiravati,Saini,eiravati.saini.837@retailiq.com,2341554262,Bengaluru,HR Executive,Sneha Reddy,2018-06-20,True
+185,Indrajit,Iyer,indrajit.iyer.315@retailiq.com,5803152885,Delhi,HR Executive,Arjun Nair,2020-10-19,True
+186,Girindra,Parsa,girindra.parsa.653@retailiq.com,5393488905,Delhi,Store Manager,Arjun Nair,2019-11-12,True
+187,Harinakshi,Bahl,harinakshi.bahl.973@retailiq.com,9059884523,Delhi,Inventory Executive,Priya Sharma,2021-04-01,True
+188,Abdul,Saxena,abdul.saxena.685@retailiq.com,9988164076,Chennai,Store Manager,Karthik Raj,2022-08-23,True
+189,Yatan,Deshpande,yatan.deshpande.112@retailiq.com,6337599594,Delhi,Regional Manager,Ravi Kumar,2024-06-19,True
+190,Amara,Mannan,amara.mannan.168@retailiq.com,9016602068,Delhi,Cashier,Karthik Raj,2018-07-09,True
+191,Hamsini,Gour,hamsini.gour.184@retailiq.com,6578265010,Delhi,Sales Executive,Ravi Kumar,2025-09-11,True
+192,Darpan,Bora,darpan.bora.819@retailiq.com,8660985421,Mumbai,Store Manager,Sneha Reddy,2017-10-10,True
+193,Warinder,Verma,warinder.verma.189@retailiq.com,3459730206,Hyderabad,Branch Manager,Priya Sharma,2022-06-03,True
+194,Matthew,Rattan,matthew.rattan.207@retailiq.com,5124478630,Coimbatore,Inventory Executive,Karthik Raj,2023-09-10,True
+195,Tanish,Lad,tanish.lad.635@retailiq.com,7453202217,Mumbai,Inventory Executive,Priya Sharma,2017-08-07,True
+196,Shivansh,Parikh,shivansh.parikh.544@retailiq.com,2840575060,Coimbatore,Branch Manager,Karthik Raj,2025-09-12,True
+197,Tejas,Das,tejas.das.174@retailiq.com,6222160236,Chennai,Cashier,Arjun Nair,2024-07-29,True
+198,Abhimanyu,Chandra,abhimanyu.chandra.337@retailiq.com,8180041111,Bengaluru,Cashier,Priya Sharma,2019-10-01,True
+199,Michael,Malhotra,michael.malhotra.715@retailiq.com,5187421546,Coimbatore,HR Executive,Priya Sharma,2022-06-27,True
+200,Chaman,Barman,chaman.barman.522@retailiq.com,9718685358,Delhi,Cashier,Priya Sharma,2021-07-09,True
+201,Pooja,Vig,pooja.vig.775@retailiq.com,9017285708,Hyderabad,Inventory Executive,Sneha Reddy,2017-02-03,True
+202,Ekapad,Kala,ekapad.kala.459@retailiq.com,7882768130,Coimbatore,Sales Executive,Sneha Reddy,2022-12-14,True
+203,Tamanna,Garg,tamanna.garg.994@retailiq.com,2505067828,Bengaluru,Branch Manager,Karthik Raj,2024-07-05,True
+204,Oeshi,Chana,oeshi.chana.370@retailiq.com,2429633974,Hyderabad,Regional Manager,Priya Sharma,2024-05-27,True
+205,Dipta,Dua,dipta.dua.857@retailiq.com,6438311594,Mumbai,Regional Manager,Sneha Reddy,2022-09-06,True
+206,Zayan,Mand,zayan.mand.288@retailiq.com,9286413729,Delhi,Store Manager,Ravi Kumar,2025-09-21,True
+207,Jasmit,Sharma,jasmit.sharma.532@retailiq.com,3984728603,Chennai,Cashier,Ravi Kumar,2021-06-07,True
+208,Karan,Gala,karan.gala.577@retailiq.com,1725030612,Hyderabad,Regional Manager,Priya Sharma,2021-05-31,False
+209,Eiravati,Gopal,eiravati.gopal.690@retailiq.com,7399938426,Mumbai,Store Manager,Priya Sharma,2023-07-11,True
+210,Tanish,Goyal,tanish.goyal.708@retailiq.com,7681237112,Delhi,Cashier,Ravi Kumar,2021-09-07,False
+211,Nathan,Sahni,nathan.sahni.659@retailiq.com,9611450014,Bengaluru,Cashier,Arjun Nair,2025-04-04,True
+212,Aadhya,Sathe,aadhya.sathe.936@retailiq.com,8907486251,Bengaluru,HR Executive,Arjun Nair,2021-06-18,True
+213,Vyanjana,Dewan,vyanjana.dewan.247@retailiq.com,6294340974,Hyderabad,Store Manager,Priya Sharma,2021-09-25,True
+214,George,Tailor,george.tailor.435@retailiq.com,0957332966,Coimbatore,Regional Manager,Arjun Nair,2026-02-25,True
+215,Osha,Madan,osha.madan.695@retailiq.com,1002169754,Mumbai,Store Manager,Sneha Reddy,2018-05-15,True
+216,Onkar,Jhaveri,onkar.jhaveri.350@retailiq.com,9993262976,Mumbai,Cashier,Arjun Nair,2023-09-05,False
+217,Ayushman,Thaman,ayushman.thaman.869@retailiq.com,4547128931,Hyderabad,Store Manager,Arjun Nair,2019-05-06,True
+218,Bhavna,Singh,bhavna.singh.286@retailiq.com,8406540912,Coimbatore,HR Executive,Ravi Kumar,2021-04-23,True
+219,Daksha,Boase,daksha.boase.159@retailiq.com,5401396118,Delhi,Inventory Executive,Ravi Kumar,2020-06-26,True
+220,Varenya,Wali,varenya.wali.571@retailiq.com,3793528482,Delhi,Branch Manager,Arjun Nair,2018-02-25,True
+221,Sachi,Lalla,sachi.lalla.301@retailiq.com,5675018942,Coimbatore,Regional Manager,Arjun Nair,2017-04-21,True
+222,Luke,Manne,luke.manne.888@retailiq.com,1678629469,Bengaluru,Store Manager,Arjun Nair,2025-06-06,True
+223,Adweta,Barad,adweta.barad.528@retailiq.com,8080287584,Chennai,Branch Manager,Ravi Kumar,2023-12-09,True
+224,Bhavya,Soni,bhavya.soni.897@retailiq.com,4276133658,Coimbatore,Branch Manager,Sneha Reddy,2018-04-05,True
+225,Indrajit,Sastry,indrajit.sastry.166@retailiq.com,8608320914,Delhi,Store Manager,Arjun Nair,2018-04-04,True
+226,Azaan,Kumar,azaan.kumar.523@retailiq.com,7108543189,Bengaluru,HR Executive,Priya Sharma,2018-05-16,False
+227,Janani,Virk,janani.virk.263@retailiq.com,2400374706,Bengaluru,Regional Manager,Priya Sharma,2023-11-16,True
+228,Ijaya,Iyengar,ijaya.iyengar.802@retailiq.com,0739488777,Coimbatore,HR Executive,Ravi Kumar,2022-11-09,True
+229,Nicholas,Gupta,nicholas.gupta.848@retailiq.com,8645445817,Hyderabad,Cashier,Sneha Reddy,2017-02-25,True
+230,Unnati,Dalal,unnati.dalal.645@retailiq.com,3088232423,Delhi,Cashier,Priya Sharma,2026-01-28,True
+231,Ranveer,Saran,ranveer.saran.547@retailiq.com,3758743372,Coimbatore,HR Executive,Karthik Raj,2021-11-21,False
+232,Janaki,Kant,janaki.kant.753@retailiq.com,9351939688,Delhi,Regional Manager,Karthik Raj,2022-08-11,True
+233,Pranit,Sachdeva,pranit.sachdeva.950@retailiq.com,2795714378,Chennai,Inventory Executive,Karthik Raj,2019-11-13,True
+234,Yutika,Golla,yutika.golla.280@retailiq.com,6752417317,Chennai,Cashier,Karthik Raj,2018-02-05,True
+235,Inaya,Dutta,inaya.dutta.856@retailiq.com,7004261042,Mumbai,Branch Manager,Sneha Reddy,2025-03-20,False
+236,Watika,Doshi,watika.doshi.728@retailiq.com,9117220098,Delhi,Store Manager,Priya Sharma,2019-10-19,True
+237,Reva,Hari,reva.hari.818@retailiq.com,1930794239,Delhi,Branch Manager,Priya Sharma,2019-05-13,True
+238,Ucchal,Mistry,ucchal.mistry.827@retailiq.com,4918017786,Chennai,Cashier,Arjun Nair,2019-04-03,True
+239,Bhanumati,Shroff,bhanumati.shroff.687@retailiq.com,4372661594,Coimbatore,HR Executive,Karthik Raj,2022-12-16,True
+240,Girish,Nigam,girish.nigam.609@retailiq.com,7722226564,Chennai,HR Executive,Karthik Raj,2025-04-26,True
+241,Dipta,Suresh,dipta.suresh.115@retailiq.com,8706989847,Bengaluru,Sales Executive,Ravi Kumar,2021-05-31,True
+242,Ekansh,Parekh,ekansh.parekh.584@retailiq.com,4588684699,Hyderabad,HR Executive,Priya Sharma,2021-06-27,True
+243,Jatin,Mital,jatin.mital.938@retailiq.com,6482555369,Hyderabad,Store Manager,Ravi Kumar,2021-12-10,True
+244,Tristan,Nayak,tristan.nayak.658@retailiq.com,1925848340,Bengaluru,Branch Manager,Karthik Raj,2023-05-30,True
+245,Vedant,Dugar,vedant.dugar.199@retailiq.com,7573988222,Delhi,Sales Executive,Ravi Kumar,2023-10-31,True
+246,Jeevika,Jain,jeevika.jain.757@retailiq.com,2545277746,Chennai,Inventory Executive,Karthik Raj,2022-01-04,True
+247,Advika,Mohanty,advika.mohanty.329@retailiq.com,5380372003,Chennai,Inventory Executive,Ravi Kumar,2021-12-21,True
+248,Amruta,Raman,amruta.raman.228@retailiq.com,4173913870,Hyderabad,Branch Manager,Karthik Raj,2025-10-03,True
+249,Vinaya,Sagar,vinaya.sagar.631@retailiq.com,8576536418,Delhi,Inventory Executive,Priya Sharma,2022-02-24,True
+250,Bishakha,Kurian,bishakha.kurian.285@retailiq.com,3451705621,Hyderabad,Sales Executive,Arjun Nair,2025-09-03,True
+251,Dakshesh,Chander,dakshesh.chander.265@retailiq.com,5547536623,Coimbatore,Branch Manager,Arjun Nair,2019-03-26,True
+252,Bishakha,Singhal,bishakha.singhal.307@retailiq.com,3222917612,Mumbai,Inventory Executive,Karthik Raj,2023-08-04,True
+253,Damini,Rout,damini.rout.802@retailiq.com,5412566169,Hyderabad,HR Executive,Sneha Reddy,2017-12-07,True
+254,Darpan,Bhat,darpan.bhat.779@retailiq.com,7975916419,Chennai,Branch Manager,Priya Sharma,2019-08-09,True
+255,Omya,Bhatti,omya.bhatti.632@retailiq.com,4403905210,Chennai,Store Manager,Priya Sharma,2024-10-09,True
+256,Lekha,Manda,lekha.manda.678@retailiq.com,6034187724,Chennai,Regional Manager,Priya Sharma,2023-04-19,True
+257,Samesh,Shan,samesh.shan.332@retailiq.com,9126766754,Delhi,Inventory Executive,Sneha Reddy,2024-09-08,True
+258,Abeer,Agrawal,abeer.agrawal.127@retailiq.com,3490520360,Bengaluru,Branch Manager,Arjun Nair,2018-11-02,True
+259,Rohan,Anand,rohan.anand.480@retailiq.com,8905717283,Chennai,HR Executive,Priya Sharma,2016-10-26,True
+260,Hritik,Deo,hritik.deo.453@retailiq.com,6202104717,Hyderabad,Inventory Executive,Priya Sharma,2022-01-09,True
+261,Andrew,Chadha,andrew.chadha.161@retailiq.com,9873835549,Bengaluru,Branch Manager,Arjun Nair,2019-08-10,True
+262,Zaitra,Kurian,zaitra.kurian.852@retailiq.com,8986916067,Delhi,HR Executive,Arjun Nair,2023-09-10,True
+263,Waida,Patel,waida.patel.873@retailiq.com,5928700733,Chennai,Sales Executive,Priya Sharma,2026-02-02,True
+264,Waida,Nagy,waida.nagy.214@retailiq.com,3100604402,Bengaluru,Store Manager,Karthik Raj,2020-07-25,True
+265,Wriddhish,Misra,wriddhish.misra.712@retailiq.com,8850410105,Delhi,Branch Manager,Arjun Nair,2022-04-15,True
+266,Neelima,Pall,neelima.pall.949@retailiq.com,6245071332,Coimbatore,Store Manager,Priya Sharma,2023-02-06,True
+267,Warjas,Kala,warjas.kala.873@retailiq.com,9146292723,Mumbai,Store Manager,Karthik Raj,2017-11-06,True
+268,Advik,Chakraborty,advik.chakraborty.963@retailiq.com,1230783805,Hyderabad,Store Manager,Karthik Raj,2022-07-29,True
+269,Xiti,Baria,xiti.baria.896@retailiq.com,9063649273,Delhi,Branch Manager,Sneha Reddy,2019-12-29,True
+270,Michael,Ravi,michael.ravi.144@retailiq.com,5498929452,Coimbatore,Sales Executive,Arjun Nair,2020-10-17,True
+271,Dominic,Prakash,dominic.prakash.788@retailiq.com,8715237048,Chennai,Inventory Executive,Arjun Nair,2016-12-11,True
+272,Kashish,Ravi,kashish.ravi.714@retailiq.com,2198019568,Mumbai,Cashier,Karthik Raj,2022-09-06,True
+273,Yashoda,Goyal,yashoda.goyal.101@retailiq.com,4351279795,Chennai,Sales Executive,Priya Sharma,2020-01-16,True
+274,Naveen,Mangat,naveen.mangat.116@retailiq.com,0996177823,Delhi,Regional Manager,Priya Sharma,2016-12-24,True
+275,Omaja,Manda,omaja.manda.695@retailiq.com,2157233653,Hyderabad,HR Executive,Sneha Reddy,2018-11-27,True
+276,Urishilla,Lata,urishilla.lata.262@retailiq.com,3849710627,Delhi,Branch Manager,Karthik Raj,2026-04-29,True
+277,Warinder,Sama,warinder.sama.457@retailiq.com,5818543288,Delhi,Sales Executive,Sneha Reddy,2023-11-24,True
+278,Raagini,Dayal,raagini.dayal.310@retailiq.com,5883767468,Coimbatore,Cashier,Ravi Kumar,2024-08-17,True
+279,Nicholas,Dhingra,nicholas.dhingra.287@retailiq.com,5225952472,Chennai,Cashier,Arjun Nair,2017-12-07,False
+280,Isaiah,Bala,isaiah.bala.117@retailiq.com,0762136530,Hyderabad,Store Manager,Ravi Kumar,2020-10-29,False
+281,Lakshit,Choudhury,lakshit.choudhury.326@retailiq.com,0420915195,Coimbatore,Cashier,Priya Sharma,2018-01-10,True
+282,Jai,Gole,jai.gole.795@retailiq.com,1391044820,Bengaluru,Regional Manager,Priya Sharma,2024-01-11,True
+283,Rachana,Gera,rachana.gera.971@retailiq.com,8979859198,Bengaluru,Inventory Executive,Arjun Nair,2025-10-27,False
+284,Ishwar,Ramakrishnan,ishwar.ramakrishnan.428@retailiq.com,1559016656,Coimbatore,Branch Manager,Ravi Kumar,2025-03-24,True
+285,Janaki,Jani,janaki.jani.600@retailiq.com,1151029455,Mumbai,Branch Manager,Ravi Kumar,2019-02-28,True
+286,Ira,Wable,ira.wable.936@retailiq.com,4422628217,Bengaluru,Regional Manager,Sneha Reddy,2019-09-14,True
+287,Ekbal,Thaman,ekbal.thaman.951@retailiq.com,1659279885,Coimbatore,Inventory Executive,Ravi Kumar,2024-05-14,True
+288,Kai,Viswanathan,kai.viswanathan.850@retailiq.com,6249921651,Hyderabad,Store Manager,Karthik Raj,2022-02-24,True
+289,Vaishnavi,Wagle,vaishnavi.wagle.984@retailiq.com,8174941971,Coimbatore,Regional Manager,Karthik Raj,2022-06-10,True
+290,Liam,Gopal,liam.gopal.767@retailiq.com,4731861504,Mumbai,Inventory Executive,Arjun Nair,2020-03-04,True
+291,Ijaya,Tak,ijaya.tak.704@retailiq.com,3000985010,Bengaluru,Branch Manager,Sneha Reddy,2019-03-03,True
+292,Chatresh,Narasimhan,chatresh.narasimhan.205@retailiq.com,3535885433,Hyderabad,Branch Manager,Sneha Reddy,2022-08-01,True
+293,Bhavna,Mall,bhavna.mall.670@retailiq.com,8901626498,Bengaluru,Branch Manager,Sneha Reddy,2022-01-25,True
+294,Jeet,Gupta,jeet.gupta.989@retailiq.com,6517894722,Coimbatore,Sales Executive,Arjun Nair,2017-12-13,True
+295,Warinder,Khosla,warinder.khosla.669@retailiq.com,2767332928,Chennai,Branch Manager,Arjun Nair,2021-10-02,False
+296,Rachit,Borra,rachit.borra.282@retailiq.com,0365046177,Hyderabad,Sales Executive,Sneha Reddy,2016-08-26,True
+297,Leena,Ahuja,leena.ahuja.211@retailiq.com,4200575916,Coimbatore,HR Executive,Sneha Reddy,2020-11-11,False
+298,Janaki,Prabhu,janaki.prabhu.190@retailiq.com,2670897217,Mumbai,Regional Manager,Ravi Kumar,2025-02-19,True
+299,Tamanna,Apte,tamanna.apte.782@retailiq.com,8745483556,Hyderabad,Store Manager,Ravi Kumar,2019-07-20,True
+300,Deepa,Kunda,deepa.kunda.990@retailiq.com,4622325905,Delhi,Inventory Executive,Karthik Raj,2016-09-20,True

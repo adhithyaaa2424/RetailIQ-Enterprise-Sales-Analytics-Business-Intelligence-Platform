@@ -472,3 +472,60 @@ def generate_date_dimension(
             "is_weekend",
         ]
     ]
+    
+    
+
+# ==========================================================
+# Orders Configuration
+# ==========================================================
+
+NUM_ORDERS = 10000
+
+PAYMENT_METHODS = [
+    "Credit Card",
+    "Debit Card",
+    "UPI",
+    "Net Banking",
+    "Cash",
+]
+
+SALES_CHANNELS = [
+    "Online",
+    "Store",
+    "Mobile App",
+]
+
+    
+    
+def generate_orders(
+    customers_df,
+    employees_df,
+    date_dimension_df,
+):
+    """
+    Generate synthetic orders for RetailIQ.
+    """
+
+    orders = []
+
+    customer_ids = customers_df["customer_id"].tolist()
+    employee_ids = employees_df["employee_id"].tolist()
+    date_keys = date_dimension_df["date_key"].tolist()
+
+    for _ in range(NUM_ORDERS):
+
+        orders.append(
+            {
+                "customer_id": random.choice(customer_ids),
+                "employee_id": random.choice(employee_ids),
+                "date_key": random.choice(date_keys),
+                "payment_method": random.choice(PAYMENT_METHODS),
+                "sales_channel": random.choice(SALES_CHANNELS),
+            }
+        )
+
+    orders_df = pd.DataFrame(orders)
+
+    print(f"Generated {len(orders_df)} orders successfully.")
+
+    return orders_df

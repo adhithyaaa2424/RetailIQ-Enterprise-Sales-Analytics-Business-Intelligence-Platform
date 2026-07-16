@@ -30,3 +30,33 @@ DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 DATE_START = "2022-01-01"
 DATE_END = "2026-12-31"
+
+
+
+# ==========================================
+# Orders Configuration
+# ==========================================
+
+NUM_ORDERS = 10000
+
+ORDER_STATUSES = [
+    "Completed",
+    "Pending",
+    "Cancelled",
+    "Returned"
+]
+
+PAYMENT_METHODS = [
+    "Cash",
+    "Credit Card",
+    "Debit Card",
+    "UPI",
+    "Net Banking"
+]
+
+
+SALES_CHANNELS = [
+    "Store",
+    "Online",
+    "Mobile App"
+]
