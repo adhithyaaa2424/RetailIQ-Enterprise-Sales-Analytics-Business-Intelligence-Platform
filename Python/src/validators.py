@@ -419,3 +419,80 @@ def run_inventory_validations(df):
     print("\n" + "=" * 60)
     print("INVENTORY VALIDATION PIPELINE COMPLETED")
     print("=" * 60)
+    
+    
+
+def validate_employee_missing_values(employees_df):
+    """
+    Check for missing values in employee data.
+    """
+
+    missing = employees_df.isnull().sum()
+
+    if missing.sum() > 0:
+        print("\n❌ Missing Values Found")
+        print(missing[missing > 0])
+    else:
+        print("✅ No missing values found.")
+        
+        
+        
+def validate_employee_duplicate_emails(employees_df):
+    """
+    Check duplicate employee emails.
+    """
+
+    duplicates = employees_df["email"].duplicated().sum()
+
+    if duplicates > 0:
+        print(f"❌ Duplicate emails found: {duplicates}")
+    else:
+        print("✅ No duplicate emails found.")
+        
+        
+        
+def validate_employee_duplicate_phones(employees_df):
+    """
+   Check duplicate phone numbers.
+    """
+
+    duplicates = employees_df["phone"].duplicated().sum()
+
+    if duplicates > 0:
+        print(f"❌ Duplicate phone numbers found: {duplicates}")
+    else:
+        print("✅ No duplicate phone numbers found.")
+        
+        
+        
+from datetime import datetime
+
+def validate_employee_hire_dates(employees_df):
+    """
+    Check hire dates.
+    """
+
+    invalid = employees_df[
+        employees_df["hire_date"] > pd.Timestamp.today()
+    ]
+
+    if len(invalid) > 0:
+        print(f"❌ Invalid hire dates: {len(invalid)}")
+    else:
+        print("✅ Hire dates are valid.")
+        
+        
+        
+def run_employee_validations(employees_df):
+    """
+    Run all employee validations.
+    """
+
+    print("\nRunning Employee Validations...\n")
+
+    validate_employee_missing_values(employees_df)
+    validate_employee_duplicate_emails(employees_df)
+    validate_employee_duplicate_phones(employees_df)
+    validate_employee_hire_dates(employees_df)
+
+    print("\n✅ Employee validation completed.")

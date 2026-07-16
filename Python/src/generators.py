@@ -300,3 +300,110 @@ def generate_inventory(products_df: pd.DataFrame) -> pd.DataFrame:
     )
 
     return inventory_df
+
+
+
+# ==========================================================
+# Employee Configuration
+# ==========================================================
+
+BRANCHES = [
+    "Chennai",
+    "Bengaluru",
+    "Hyderabad",
+    "Mumbai",
+    "Delhi",
+    "Coimbatore",
+]
+
+DESIGNATIONS = [
+    "Sales Executive",
+    "Cashier",
+    "Inventory Executive",
+    "Store Manager",
+    "Branch Manager",
+    "HR Executive",
+    "Regional Manager",
+]
+
+MANAGERS = [
+    "Ravi Kumar",
+    "Priya Sharma",
+    "Arjun Nair",
+    "Sneha Reddy",
+    "Karthik Raj",
+]
+
+
+
+# ==========================================================
+# Employee Generator
+# ==========================================================
+
+def generate_employees(count: int) -> pd.DataFrame:
+    """
+    Generate synthetic employee data.
+
+    Parameters
+    ----------
+    count : int
+        Number of employees to generate.
+
+    Returns
+    -------
+    pd.DataFrame
+        Employee dataset.
+    """
+
+    employees = []
+
+    for _ in range(count):
+
+        first_name = fake.first_name()
+        last_name = fake.last_name()
+
+        employee = {
+
+            "first_name": first_name,
+
+            "last_name": last_name,
+
+            "email": (
+                f"{first_name.lower()}."
+                f"{last_name.lower()}."
+                f"{random.randint(100,999)}"
+                "@retailiq.com"
+            ),
+
+            "phone": fake.unique.msisdn()[:10],
+
+            "branch": random.choice(BRANCHES),
+
+            "designation": random.choice(DESIGNATIONS),
+
+            "manager_name": random.choice(MANAGERS),
+
+            "hire_date": fake.date_between(
+                start_date="-10y",
+                end_date="today"
+            ),
+
+            "is_active": random.choices(
+                [True, False],
+                weights=[90, 10],
+                k=1
+            )[0],
+        }
+
+        employees.append(employee)
+
+    employees_df = pd.DataFrame(employees)
+
+    employees_df["hire_date"] = pd.to_datetime(
+        employees_df["hire_date"]
+    )
+
+    return employees_df
+
+
+
