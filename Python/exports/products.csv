@@ -1,0 +1,1001 @@
+product_id,sku,product_name,category,brand,unit_price,cost_price,stock_quantity,reorder_level,status
+1,FUR-000001,Bookshelf,Furniture,IKEA,23498.56,18040.16,262,18,Active
+2,FUR-000002,Bookshelf,Furniture,IKEA,79885.35,60023.82,180,30,Active
+3,CLO-000003,Jeans,Clothing,Adidas,1103.8,856.58,155,44,Active
+4,ELE-000004,Smartphone,Electronics,HP,78418.02,58972.37,286,19,Active
+5,FUR-000005,Dining Table,Furniture,Godrej,21683.7,18237.65,237,15,Active
+6,CLO-000006,Hoodie,Clothing,Puma,3317.63,2668.79,104,34,Active
+7,FUR-000007,Bookshelf,Furniture,Godrej,26545.46,23703.01,202,45,Active
+8,BOO-000008,Data Science,Books,O'Reilly,613.43,530.99,286,13,Active
+9,ELE-000009,Monitor,Electronics,HP,36715.09,30993.81,318,24,Active
+10,CLO-000010,T-Shirt,Clothing,Nike,4779.15,3352.76,89,40,Active
+11,BOO-000011,Business Analytics,Books,Penguin,323.91,278.75,90,50,Active
+12,ELE-000012,Smartwatch,Electronics,Sony,56625.79,43319.59,95,15,Active
+13,ELE-000013,Smartwatch,Electronics,Samsung,39784.54,35550.76,425,38,Active
+14,GRO-000014,Butter,Groceries,Britannia,519.85,386.09,31,26,Active
+15,GRO-000015,Bread,Groceries,Britannia,1844.83,1622.77,160,37,Active
+16,GRO-000016,Biscuits,Groceries,Nestle,363.4,294.97,226,16,Active
+17,ELE-000017,Monitor,Electronics,Dell,53705.76,38357.06,232,12,Active
+18,BOO-000018,Data Science,Books,Penguin,1229.24,956.82,477,44,Active
+19,BOO-000019,SQL Fundamentals,Books,Penguin,1285.59,933.62,403,20,Active
+20,BOO-000020,SQL Fundamentals,Books,Pearson,440.66,394.79,60,10,Active
+21,BOO-000021,Machine Learning,Books,Pearson,2041.7,1511.99,484,34,Active
+22,GRO-000022,Milk,Groceries,Amul,142.15,115.55,41,17,Active
+23,CLO-000023,Jeans,Clothing,Nike,3816.69,3281.47,462,43,Active
+24,GRO-000024,Bread,Groceries,Nestle,1938.08,1641.01,10,44,Active
+25,CLO-000025,Sneakers,Clothing,Levi's,3634.97,3173.62,383,11,Active
+26,FUR-000026,Bookshelf,Furniture,IKEA,68949.85,53605.34,395,31,Active
+27,BOO-000027,Machine Learning,Books,O'Reilly,1190.48,1015.66,490,40,Active
+28,FUR-000028,Dining Table,Furniture,Godrej,53127.02,42782.65,258,30,Active
+29,GRO-000029,Butter,Groceries,Britannia,430.82,342.56,70,36,Active
+30,CLO-000030,Hoodie,Clothing,Puma,7897.59,6144.64,409,39,Active
+31,BOO-000031,Data Science,Books,Penguin,735.2,643.02,150,25,Active
+32,BOO-000032,Business Analytics,Books,Pearson,1933.28,1523.55,200,36,Active
+33,BOO-000033,Data Science,Books,Pearson,2413.05,1709.44,470,13,Active
+34,CLO-000034,Jeans,Clothing,Levi's,6681.94,5904.16,487,30,Active
+35,BOO-000035,Data Science,Books,Penguin,1464.98,1073.31,8,37,Active
+36,CLO-000036,Hoodie,Clothing,Puma,3594.82,2770.67,284,10,Active
+37,FUR-000037,Wardrobe,Furniture,Nilkamal,52994.87,45338.14,451,19,Active
+38,GRO-000038,Milk,Groceries,Nestle,507.14,393.8,252,22,Active
+39,CLO-000039,Jacket,Clothing,Nike,5137.58,4250.83,40,19,Active
+40,BOO-000040,Business Analytics,Books,O'Reilly,2029.46,1441.22,103,25,Active
+41,FUR-000041,Wardrobe,Furniture,Godrej,72930.11,62065.54,133,49,Active
+42,BOO-000042,Python Programming,Books,O'Reilly,2479.32,2044.58,37,20,Active
+43,GRO-000043,Biscuits,Groceries,Nestle,1256.31,1090.94,491,49,Active
+44,CLO-000044,Hoodie,Clothing,Puma,4539.14,3982.01,217,22,Active
+45,ELE-000045,Smartwatch,Electronics,Apple,107922.16,80231.01,397,17,Active
+46,CLO-000046,Hoodie,Clothing,Levi's,6391.71,4874.19,364,13,Active
+47,BOO-000047,Business Analytics,Books,Penguin,2482.03,1986.92,426,24,Active
+48,FUR-000048,Wardrobe,Furniture,Godrej,25584.02,22860.79,136,47,Active
+49,CLO-000049,Jeans,Clothing,Nike,1849.37,1595.35,446,41,Active
+50,FUR-000050,Study Desk,Furniture,Godrej,5429.91,3840.56,125,22,Active
+51,CLO-000051,Jeans,Clothing,Adidas,848.93,719.39,481,30,Active
+52,GRO-000052,Bread,Groceries,Nestle,973.37,740.07,79,45,Active
+53,ELE-000053,Smartwatch,Electronics,Sony,94385.05,69206.64,58,33,Active
+54,ELE-000054,Smartwatch,Electronics,Apple,140068.93,123278.78,340,45,Active
+55,CLO-000055,Hoodie,Clothing,Levi's,1356.83,1183.56,142,17,Active
+56,CLO-000056,Jacket,Clothing,Adidas,6496.16,5800.12,76,49,Active
+57,ELE-000057,Monitor,Electronics,Apple,36593.91,28769.22,342,43,Active
+58,ELE-000058,Smartphone,Electronics,Dell,112181.23,85441.17,388,43,Active
+59,GRO-000059,Biscuits,Groceries,Nestle,1120.49,860.65,388,17,Active
+60,GRO-000060,Milk,Groceries,Britannia,791.97,616.15,30,39,Active
+61,GRO-000061,Bread,Groceries,Amul,131.25,94.71,253,44,Active
+62,BOO-000062,Data Science,Books,Penguin,920.33,737.19,106,11,Active
+63,BOO-000063,Machine Learning,Books,O'Reilly,2066.42,1662.87,175,10,Active
+64,BOO-000064,Data Science,Books,Penguin,2472.5,1905.9,389,14,Active
+65,FUR-000065,Bookshelf,Furniture,Nilkamal,18211.38,15910.92,15,22,Active
+66,GRO-000066,Milk,Groceries,Britannia,1030.65,820.68,277,45,Active
+67,ELE-000067,Monitor,Electronics,HP,76003.5,57172.96,200,22,Active
+68,CLO-000068,Jeans,Clothing,Levi's,6186.76,5500.61,467,38,Active
+69,GRO-000069,Butter,Groceries,Nestle,1378.05,966.24,380,19,Active
+70,ELE-000070,Tablet,Electronics,Dell,79223.63,58346.68,365,10,Active
+71,CLO-000071,Hoodie,Clothing,Levi's,7963.63,7092.67,399,30,Active
+72,ELE-000072,Tablet,Electronics,Samsung,58863.81,48965.95,420,31,Active
+73,FUR-000073,Study Desk,Furniture,IKEA,64104.66,52135.35,232,33,Active
+74,ELE-000074,Smartphone,Electronics,Sony,19970.01,14054.41,345,21,Active
+75,BOO-000075,SQL Fundamentals,Books,O'Reilly,498.9,377.07,22,11,Active
+76,FUR-000076,Bookshelf,Furniture,Nilkamal,50326.75,44040.28,487,21,Active
+77,BOO-000077,SQL Fundamentals,Books,Penguin,2142.0,1626.32,220,29,Active
+78,ELE-000078,Smartphone,Electronics,Sony,29513.63,22124.71,88,37,Active
+79,GRO-000079,Butter,Groceries,Nestle,509.07,403.8,148,40,Active
+80,CLO-000080,T-Shirt,Clothing,Levi's,6676.04,4734.12,240,16,Active
+81,GRO-000081,Milk,Groceries,Nestle,1677.72,1422.15,253,21,Active
+82,BOO-000082,Python Programming,Books,O'Reilly,877.71,677.2,121,18,Active
+83,ELE-000083,Tablet,Electronics,HP,69765.91,54164.19,288,21,Active
+84,FUR-000084,Wardrobe,Furniture,Nilkamal,31812.95,28221.06,14,44,Active
+85,CLO-000085,Hoodie,Clothing,Puma,2386.56,2029.47,72,39,Active
+86,CLO-000086,T-Shirt,Clothing,Levi's,6976.61,5632.18,225,43,Active
+87,ELE-000087,Smartwatch,Electronics,Samsung,126044.03,103095.49,257,40,Active
+88,GRO-000088,Bread,Groceries,Britannia,1418.03,1208.55,131,40,Active
+89,ELE-000089,Smartwatch,Electronics,HP,76260.77,57111.58,416,44,Active
+90,BOO-000090,Business Analytics,Books,O'Reilly,1950.46,1559.17,400,38,Active
+91,CLO-000091,Jeans,Clothing,Puma,6835.53,6046.69,80,35,Active
+92,ELE-000092,Laptop,Electronics,HP,34094.66,23954.66,337,17,Active
+93,BOO-000093,Data Science,Books,O'Reilly,1317.59,1126.07,262,33,Active
+94,GRO-000094,Coffee,Groceries,Amul,1565.45,1136.75,488,49,Active
+95,ELE-000095,Headphones,Electronics,Apple,97423.96,77499.83,348,12,Active
+96,ELE-000096,Tablet,Electronics,Sony,95656.22,85780.05,11,38,Active
+97,ELE-000097,Smartphone,Electronics,Apple,55244.28,44454.74,393,30,Active
+98,BOO-000098,SQL Fundamentals,Books,Penguin,1989.38,1619.75,425,37,Active
+99,CLO-000099,Sneakers,Clothing,Puma,7706.95,5560.52,406,49,Active
+100,BOO-000100,Business Analytics,Books,Pearson,1847.87,1331.84,67,27,Active
+101,FUR-000101,Bookshelf,Furniture,Nilkamal,21785.91,16544.47,219,24,Active
+102,FUR-000102,Wardrobe,Furniture,Godrej,33038.52,27048.72,210,19,Active
+103,CLO-000103,Jeans,Clothing,Levi's,3856.64,3240.87,255,11,Active
+104,FUR-000104,Wardrobe,Furniture,Godrej,51992.49,45397.23,368,13,Active
+105,BOO-000105,SQL Fundamentals,Books,O'Reilly,840.53,687.93,369,36,Active
+106,GRO-000106,Milk,Groceries,Britannia,1850.57,1525.66,325,32,Active
+107,GRO-000107,Bread,Groceries,Nestle,1845.69,1429.39,128,44,Active
+108,FUR-000108,Bookshelf,Furniture,Nilkamal,30682.46,23880.99,338,16,Active
+109,CLO-000109,Jeans,Clothing,Levi's,716.97,563.61,338,23,Active
+110,GRO-000110,Milk,Groceries,Britannia,1769.85,1573.26,81,13,Active
+111,FUR-000111,Dining Table,Furniture,Godrej,9560.68,8044.22,32,27,Active
+112,CLO-000112,Sneakers,Clothing,Levi's,7157.94,6273.0,278,10,Active
+113,CLO-000113,Jacket,Clothing,Levi's,6098.28,5029.6,373,33,Active
+114,BOO-000114,Machine Learning,Books,O'Reilly,961.42,783.52,13,41,Active
+115,CLO-000115,Hoodie,Clothing,Levi's,5033.94,4022.06,81,34,Active
+116,FUR-000116,Bookshelf,Furniture,Nilkamal,75300.17,61256.38,87,23,Active
+117,GRO-000117,Coffee,Groceries,Britannia,1112.15,974.06,104,37,Active
+118,ELE-000118,Headphones,Electronics,Sony,78533.08,62759.73,138,21,Active
+119,BOO-000119,Data Science,Books,Pearson,1096.21,931.8,227,33,Active
+120,ELE-000120,Smartwatch,Electronics,Samsung,74667.21,55773.13,139,24,Active
+121,CLO-000121,Jeans,Clothing,Adidas,7439.55,5342.08,113,32,Active
+122,GRO-000122,Biscuits,Groceries,Amul,1684.43,1344.37,257,37,Active
+123,BOO-000123,Data Science,Books,O'Reilly,2178.57,1744.74,356,12,Active
+124,ELE-000124,Headphones,Electronics,Samsung,131616.22,96901.87,422,35,Active
+125,CLO-000125,Jacket,Clothing,Puma,6104.35,5357.64,324,18,Active
+126,BOO-000126,Machine Learning,Books,Pearson,2619.93,2323.91,162,32,Active
+127,CLO-000127,Sneakers,Clothing,Levi's,4656.09,3297.37,423,15,Active
+128,ELE-000128,Smartwatch,Electronics,Apple,38849.19,28078.78,272,18,Active
+129,FUR-000129,Office Chair,Furniture,IKEA,11835.02,10648.97,55,12,Active
+130,BOO-000130,Data Science,Books,Penguin,806.06,723.19,323,34,Active
+131,CLO-000131,Hoodie,Clothing,Puma,2145.95,1516.45,13,44,Active
+132,GRO-000132,Bread,Groceries,Nestle,1291.07,950.52,38,50,Active
+133,CLO-000133,Hoodie,Clothing,Nike,6185.99,5320.93,456,24,Active
+134,FUR-000134,Bookshelf,Furniture,IKEA,34691.05,28531.2,384,12,Active
+135,CLO-000135,Sneakers,Clothing,Adidas,4026.77,3298.41,189,14,Active
+136,GRO-000136,Butter,Groceries,Amul,1068.33,832.78,389,21,Active
+137,GRO-000137,Butter,Groceries,Amul,381.58,285.33,275,16,Active
+138,FUR-000138,Study Desk,Furniture,Godrej,51473.27,40775.48,51,13,Active
+139,BOO-000139,Python Programming,Books,Pearson,2655.38,2208.07,276,37,Active
+140,FUR-000140,Wardrobe,Furniture,IKEA,26451.89,22565.05,402,47,Active
+141,FUR-000141,Office Chair,Furniture,Nilkamal,48311.4,35146.29,384,26,Active
+142,ELE-000142,Laptop,Electronics,Sony,76692.08,64889.45,7,13,Active
+143,ELE-000143,Laptop,Electronics,Sony,62899.53,49790.15,174,13,Active
+144,CLO-000144,Jacket,Clothing,Nike,1866.64,1309.13,348,44,Active
+145,BOO-000145,Business Analytics,Books,Pearson,2148.44,1723.7,387,23,Active
+146,CLO-000146,T-Shirt,Clothing,Adidas,6859.51,5413.03,279,23,Active
+147,BOO-000147,Business Analytics,Books,Pearson,2753.82,2187.21,77,10,Active
+148,CLO-000148,T-Shirt,Clothing,Puma,3281.34,2304.36,495,15,Active
+149,FUR-000149,Bookshelf,Furniture,IKEA,46445.63,40851.12,258,26,Active
+150,FUR-000150,Wardrobe,Furniture,Nilkamal,16456.17,12357.92,400,43,Active
+151,ELE-000151,Monitor,Electronics,Samsung,125585.42,102379.34,315,38,Active
+152,BOO-000152,Data Science,Books,O'Reilly,1590.51,1374.98,457,43,Active
+153,CLO-000153,Sneakers,Clothing,Nike,5362.95,4362.85,422,12,Active
+154,BOO-000154,Data Science,Books,Pearson,463.16,404.17,407,37,Active
+155,CLO-000155,Jacket,Clothing,Puma,6188.94,4914.36,417,29,Active
+156,GRO-000156,Bread,Groceries,Nestle,88.85,63.39,274,25,Active
+157,BOO-000157,Data Science,Books,Pearson,557.44,411.3,38,50,Active
+158,CLO-000158,Hoodie,Clothing,Adidas,1037.41,791.54,101,41,Active
+159,BOO-000159,Business Analytics,Books,Penguin,2715.92,1939.95,124,43,Active
+160,GRO-000160,Bread,Groceries,Britannia,348.98,255.11,333,38,Active
+161,BOO-000161,Data Science,Books,O'Reilly,2097.91,1643.74,370,16,Active
+162,CLO-000162,Jacket,Clothing,Adidas,3613.7,2704.51,397,16,Active
+163,FUR-000163,Wardrobe,Furniture,IKEA,56412.96,46843.49,328,49,Active
+164,GRO-000164,Bread,Groceries,Nestle,1867.93,1506.75,420,35,Active
+165,BOO-000165,Python Programming,Books,Penguin,2181.46,1614.85,0,39,Out of Stock
+166,GRO-000166,Coffee,Groceries,Nestle,492.53,395.59,351,29,Active
+167,FUR-000167,Bookshelf,Furniture,Nilkamal,21270.5,15556.86,344,39,Active
+168,ELE-000168,Headphones,Electronics,Dell,135951.63,96020.34,316,22,Active
+169,GRO-000169,Milk,Groceries,Britannia,1340.14,1024.1,46,43,Active
+170,CLO-000170,Jacket,Clothing,Nike,2133.64,1644.63,10,27,Active
+171,ELE-000171,Headphones,Electronics,Dell,45456.89,38843.65,35,20,Active
+172,GRO-000172,Coffee,Groceries,Amul,654.5,499.53,291,11,Active
+173,CLO-000173,Jacket,Clothing,Levi's,1971.26,1716.33,318,16,Active
+174,CLO-000174,Hoodie,Clothing,Levi's,3802.87,2924.66,29,39,Active
+175,ELE-000175,Smartphone,Electronics,Sony,142339.69,100938.38,488,47,Active
+176,FUR-000176,Dining Table,Furniture,Nilkamal,55144.55,48236.55,110,37,Active
+177,FUR-000177,Wardrobe,Furniture,IKEA,14417.07,10903.57,402,47,Active
+178,CLO-000178,Jacket,Clothing,Puma,6091.59,4936.62,233,16,Active
+179,BOO-000179,Python Programming,Books,O'Reilly,1183.6,979.72,162,50,Active
+180,BOO-000180,Business Analytics,Books,Penguin,237.72,187.44,427,50,Active
+181,FUR-000181,Office Chair,Furniture,Godrej,8140.47,6857.33,220,45,Active
+182,GRO-000182,Bread,Groceries,Nestle,575.04,486.2,154,27,Active
+183,ELE-000183,Monitor,Electronics,HP,62602.89,49931.56,223,19,Active
+184,CLO-000184,Jacket,Clothing,Levi's,7461.79,5808.64,156,31,Active
+185,CLO-000185,Hoodie,Clothing,Nike,6473.74,4583.49,258,26,Active
+186,GRO-000186,Milk,Groceries,Nestle,980.72,858.5,486,19,Active
+187,ELE-000187,Monitor,Electronics,Samsung,110880.83,91135.63,454,36,Active
+188,GRO-000188,Butter,Groceries,Britannia,1213.3,942.42,478,38,Active
+189,GRO-000189,Butter,Groceries,Amul,1675.05,1378.56,439,45,Active
+190,ELE-000190,Smartwatch,Electronics,Apple,127652.25,97867.83,77,16,Active
+191,FUR-000191,Office Chair,Furniture,IKEA,70657.68,51864.6,226,49,Active
+192,ELE-000192,Smartphone,Electronics,Samsung,81778.6,67946.09,58,18,Active
+193,FUR-000193,Dining Table,Furniture,Godrej,52335.72,41880.94,360,42,Active
+194,FUR-000194,Dining Table,Furniture,Nilkamal,20681.82,17884.14,268,41,Active
+195,CLO-000195,Jacket,Clothing,Nike,7850.9,5945.22,344,41,Active
+196,CLO-000196,Jacket,Clothing,Adidas,7668.63,5576.19,473,50,Active
+197,BOO-000197,SQL Fundamentals,Books,O'Reilly,2285.28,1938.58,180,10,Active
+198,FUR-000198,Dining Table,Furniture,Godrej,13508.81,11661.82,365,19,Active
+199,CLO-000199,Sneakers,Clothing,Levi's,2798.87,2174.72,309,25,Active
+200,ELE-000200,Smartwatch,Electronics,HP,123955.41,88593.27,389,44,Active
+201,ELE-000201,Smartphone,Electronics,Sony,71408.26,61401.76,361,28,Active
+202,CLO-000202,Hoodie,Clothing,Levi's,7498.03,5793.56,270,31,Active
+203,GRO-000203,Milk,Groceries,Amul,280.91,207.28,190,50,Active
+204,ELE-000204,Monitor,Electronics,Sony,44923.95,33601.55,376,42,Active
+205,GRO-000205,Milk,Groceries,Amul,1422.16,1169.27,391,49,Active
+206,BOO-000206,SQL Fundamentals,Books,Penguin,972.22,698.85,448,34,Active
+207,BOO-000207,Business Analytics,Books,Penguin,2120.59,1622.78,113,13,Active
+208,BOO-000208,Data Science,Books,Penguin,2273.18,2033.12,79,20,Active
+209,BOO-000209,SQL Fundamentals,Books,O'Reilly,989.38,808.6,420,45,Active
+210,FUR-000210,Office Chair,Furniture,IKEA,26746.45,20266.34,287,46,Active
+211,BOO-000211,Machine Learning,Books,O'Reilly,512.16,383.47,350,46,Active
+212,FUR-000212,Study Desk,Furniture,Godrej,56236.0,48420.74,363,36,Active
+213,FUR-000213,Bookshelf,Furniture,IKEA,52726.76,37328.73,248,47,Active
+214,ELE-000214,Headphones,Electronics,Dell,40417.37,32773.2,477,34,Active
+215,ELE-000215,Smartwatch,Electronics,Sony,95735.57,77904.32,330,26,Active
+216,GRO-000216,Biscuits,Groceries,Britannia,1439.58,1137.67,267,31,Active
+217,ELE-000217,Smartwatch,Electronics,Dell,112510.83,88937.84,21,41,Active
+218,ELE-000218,Monitor,Electronics,Sony,98792.61,70394.14,398,11,Active
+219,CLO-000219,Jeans,Clothing,Adidas,6719.68,5177.05,326,28,Active
+220,FUR-000220,Bookshelf,Furniture,IKEA,40837.17,34655.92,224,49,Active
+221,ELE-000221,Headphones,Electronics,Samsung,106265.89,90457.24,107,44,Active
+222,BOO-000222,Machine Learning,Books,Pearson,1401.97,998.27,66,34,Active
+223,CLO-000223,Jeans,Clothing,Levi's,4520.94,3177.11,113,34,Active
+224,BOO-000224,Data Science,Books,Penguin,2715.46,2150.87,214,14,Active
+225,BOO-000225,Business Analytics,Books,Penguin,878.42,747.02,414,24,Active
+226,BOO-000226,Python Programming,Books,Pearson,960.12,735.82,201,23,Active
+227,GRO-000227,Bread,Groceries,Britannia,1968.79,1683.83,328,45,Active
+228,FUR-000228,Bookshelf,Furniture,Nilkamal,75906.11,61062.87,202,39,Active
+229,CLO-000229,Sneakers,Clothing,Adidas,6797.4,5591.34,286,42,Active
+230,FUR-000230,Study Desk,Furniture,Nilkamal,69022.9,54831.92,472,50,Active
+231,ELE-000231,Monitor,Electronics,Apple,63515.17,44961.84,292,38,Active
+232,BOO-000232,Data Science,Books,O'Reilly,2328.88,1935.36,329,12,Active
+233,FUR-000233,Wardrobe,Furniture,Nilkamal,40890.86,32416.4,110,16,Active
+234,ELE-000234,Headphones,Electronics,Dell,46923.91,34077.42,353,17,Active
+235,ELE-000235,Monitor,Electronics,Sony,134459.93,99634.85,76,29,Active
+236,CLO-000236,Jeans,Clothing,Levi's,2544.02,2043.91,31,28,Active
+237,GRO-000237,Butter,Groceries,Britannia,270.92,220.95,284,45,Active
+238,CLO-000238,T-Shirt,Clothing,Nike,3856.92,2769.93,16,41,Active
+239,GRO-000239,Biscuits,Groceries,Britannia,1455.21,1225.4,128,43,Active
+240,FUR-000240,Study Desk,Furniture,Godrej,17384.16,13604.01,290,16,Active
+241,FUR-000241,Wardrobe,Furniture,IKEA,38210.52,31003.7,30,42,Active
+242,BOO-000242,Data Science,Books,Penguin,2456.06,2046.71,333,38,Active
+243,FUR-000243,Study Desk,Furniture,Godrej,4372.56,3697.25,364,29,Active
+244,GRO-000244,Butter,Groceries,Nestle,1978.81,1714.23,166,26,Active
+245,BOO-000245,SQL Fundamentals,Books,Penguin,2800.83,2238.48,309,11,Active
+246,FUR-000246,Dining Table,Furniture,Nilkamal,70215.47,53335.68,104,38,Active
+247,CLO-000247,Sneakers,Clothing,Levi's,4282.81,3337.61,340,36,Active
+248,ELE-000248,Tablet,Electronics,Samsung,90043.63,71478.7,214,21,Active
+249,CLO-000249,Jacket,Clothing,Nike,3743.94,2968.62,147,47,Active
+250,ELE-000250,Monitor,Electronics,Sony,77557.66,63646.96,232,23,Active
+251,CLO-000251,Jacket,Clothing,Adidas,4822.64,3517.56,256,13,Active
+252,CLO-000252,Jacket,Clothing,Puma,2406.08,1820.4,124,20,Active
+253,CLO-000253,Jeans,Clothing,Puma,5649.41,4740.79,452,23,Active
+254,FUR-000254,Wardrobe,Furniture,Godrej,78739.55,62989.34,486,39,Active
+255,BOO-000255,SQL Fundamentals,Books,Penguin,2741.36,2040.03,362,39,Active
+256,BOO-000256,Data Science,Books,Penguin,168.93,119.41,209,13,Active
+257,CLO-000257,Jeans,Clothing,Adidas,1325.36,1116.1,1,21,Active
+258,GRO-000258,Butter,Groceries,Nestle,670.53,513.26,137,41,Active
+259,FUR-000259,Dining Table,Furniture,Godrej,46694.45,34461.74,426,22,Active
+260,GRO-000260,Biscuits,Groceries,Nestle,685.84,590.76,418,45,Active
+261,FUR-000261,Office Chair,Furniture,Nilkamal,2419.16,1955.81,148,44,Active
+262,GRO-000262,Milk,Groceries,Britannia,1536.5,1287.0,487,27,Active
+263,BOO-000263,Data Science,Books,Pearson,1517.25,1341.18,479,44,Active
+264,FUR-000264,Bookshelf,Furniture,Godrej,60857.02,50449.35,478,43,Active
+265,CLO-000265,Jeans,Clothing,Levi's,3664.52,2613.55,102,40,Active
+266,BOO-000266,Business Analytics,Books,O'Reilly,1786.4,1430.74,22,23,Active
+267,FUR-000267,Office Chair,Furniture,Godrej,75204.04,57046.52,208,16,Active
+268,BOO-000268,Business Analytics,Books,O'Reilly,2130.63,1648.63,313,17,Active
+269,FUR-000269,Wardrobe,Furniture,Nilkamal,9100.85,7694.47,12,12,Active
+270,ELE-000270,Monitor,Electronics,Samsung,98574.81,73815.96,104,20,Active
+271,ELE-000271,Laptop,Electronics,Apple,63264.99,56170.14,427,34,Active
+272,CLO-000272,Jacket,Clothing,Adidas,7057.37,5321.97,12,18,Active
+273,BOO-000273,Data Science,Books,Penguin,2052.19,1839.78,430,19,Active
+274,GRO-000274,Milk,Groceries,Nestle,1893.1,1445.25,491,10,Active
+275,ELE-000275,Smartphone,Electronics,HP,83353.73,66002.08,378,47,Active
+276,BOO-000276,SQL Fundamentals,Books,Penguin,1994.46,1444.13,22,29,Active
+277,GRO-000277,Biscuits,Groceries,Nestle,1428.83,1191.84,141,39,Active
+278,BOO-000278,Business Analytics,Books,Pearson,2475.19,2142.64,397,28,Active
+279,FUR-000279,Study Desk,Furniture,IKEA,22930.86,16390.16,367,31,Active
+280,BOO-000280,Business Analytics,Books,Penguin,223.46,197.57,440,44,Active
+281,GRO-000281,Milk,Groceries,Nestle,1840.33,1554.49,37,24,Active
+282,FUR-000282,Office Chair,Furniture,Nilkamal,66629.51,56094.78,150,23,Active
+283,ELE-000283,Smartphone,Electronics,Sony,27315.63,22461.21,185,10,Active
+284,GRO-000284,Bread,Groceries,Britannia,595.28,474.45,148,35,Active
+285,BOO-000285,Python Programming,Books,O'Reilly,2091.69,1561.9,250,18,Active
+286,FUR-000286,Office Chair,Furniture,Godrej,61798.64,54260.7,370,29,Active
+287,CLO-000287,Jacket,Clothing,Levi's,3292.77,2415.01,12,37,Active
+288,CLO-000288,T-Shirt,Clothing,Adidas,2885.3,2485.26,380,36,Active
+289,BOO-000289,SQL Fundamentals,Books,O'Reilly,1476.88,1248.48,84,21,Active
+290,GRO-000290,Bread,Groceries,Britannia,495.8,425.01,466,24,Active
+291,ELE-000291,Laptop,Electronics,Dell,62820.33,48437.04,316,39,Active
+292,GRO-000292,Bread,Groceries,Amul,1959.3,1554.67,429,46,Active
+293,ELE-000293,Tablet,Electronics,HP,91057.38,65380.9,3,13,Active
+294,CLO-000294,Jeans,Clothing,Adidas,6429.47,5281.54,363,48,Active
+295,CLO-000295,T-Shirt,Clothing,Nike,3579.53,2604.6,217,27,Active
+296,CLO-000296,Jeans,Clothing,Nike,1334.37,1009.25,401,24,Active
+297,BOO-000297,Python Programming,Books,Penguin,1166.87,833.91,42,28,Active
+298,BOO-000298,Machine Learning,Books,Penguin,2215.44,1751.07,291,36,Active
+299,ELE-000299,Smartphone,Electronics,HP,113305.37,83938.35,402,36,Active
+300,BOO-000300,Machine Learning,Books,Penguin,1214.93,1030.94,118,41,Active
+301,BOO-000301,SQL Fundamentals,Books,O'Reilly,451.06,318.23,465,25,Active
+302,GRO-000302,Biscuits,Groceries,Nestle,1633.91,1355.25,411,16,Active
+303,GRO-000303,Milk,Groceries,Britannia,1015.23,826.78,69,21,Active
+304,CLO-000304,T-Shirt,Clothing,Levi's,5957.72,5040.47,174,16,Active
+305,ELE-000305,Laptop,Electronics,Apple,61189.73,50910.52,24,50,Active
+306,CLO-000306,Sneakers,Clothing,Adidas,5769.98,5057.48,145,21,Active
+307,ELE-000307,Headphones,Electronics,Samsung,39000.21,31769.37,255,32,Active
+308,BOO-000308,SQL Fundamentals,Books,Pearson,1329.98,975.56,421,46,Active
+309,FUR-000309,Dining Table,Furniture,IKEA,26982.72,20617.69,107,36,Active
+310,BOO-000310,Data Science,Books,O'Reilly,356.85,277.24,397,11,Active
+311,CLO-000311,Sneakers,Clothing,Puma,1238.28,960.61,445,26,Active
+312,BOO-000312,Business Analytics,Books,Penguin,2459.22,1752.28,393,15,Active
+313,ELE-000313,Tablet,Electronics,HP,147950.49,112928.7,65,49,Active
+314,CLO-000314,T-Shirt,Clothing,Levi's,1924.03,1385.31,137,10,Active
+315,BOO-000315,Business Analytics,Books,Pearson,793.57,658.98,426,21,Active
+316,BOO-000316,Python Programming,Books,Penguin,821.1,638.94,159,34,Active
+317,BOO-000317,Python Programming,Books,Penguin,2268.19,1927.84,366,18,Active
+318,GRO-000318,Bread,Groceries,Britannia,217.72,192.81,386,19,Active
+319,BOO-000319,Business Analytics,Books,O'Reilly,170.41,142.73,118,27,Active
+320,CLO-000320,Jacket,Clothing,Puma,7540.16,6397.11,73,48,Active
+321,FUR-000321,Study Desk,Furniture,Nilkamal,25734.61,19127.83,7,13,Active
+322,CLO-000322,Sneakers,Clothing,Nike,5476.01,4488.51,41,45,Active
+323,FUR-000323,Bookshelf,Furniture,Godrej,37905.03,30445.44,406,43,Active
+324,ELE-000324,Headphones,Electronics,Sony,106357.18,82059.85,481,46,Active
+325,GRO-000325,Butter,Groceries,Nestle,1507.01,1240.17,478,44,Active
+326,GRO-000326,Coffee,Groceries,Britannia,574.68,421.78,45,11,Active
+327,CLO-000327,Jacket,Clothing,Nike,1874.77,1651.83,292,36,Active
+328,GRO-000328,Bread,Groceries,Nestle,1482.42,1165.84,331,43,Active
+329,CLO-000329,T-Shirt,Clothing,Nike,4426.95,3552.89,174,19,Active
+330,CLO-000330,Hoodie,Clothing,Adidas,1469.75,1149.53,250,35,Active
+331,ELE-000331,Smartphone,Electronics,Dell,19863.37,16985.56,403,18,Active
+332,FUR-000332,Office Chair,Furniture,Godrej,4471.29,3456.16,232,47,Active
+333,FUR-000333,Wardrobe,Furniture,Godrej,32681.84,24528.46,248,41,Active
+334,BOO-000334,Data Science,Books,Penguin,2351.85,1827.63,494,35,Active
+335,ELE-000335,Smartphone,Electronics,Dell,97247.38,84823.17,385,40,Active
+336,FUR-000336,Study Desk,Furniture,Godrej,26958.81,22557.08,487,44,Active
+337,BOO-000337,Machine Learning,Books,O'Reilly,257.89,230.33,92,34,Active
+338,BOO-000338,Python Programming,Books,O'Reilly,2148.85,1769.6,337,10,Active
+339,BOO-000339,Business Analytics,Books,Penguin,2873.19,2224.07,459,28,Active
+340,CLO-000340,Jeans,Clothing,Adidas,6384.79,4475.85,239,47,Active
+341,ELE-000341,Tablet,Electronics,Samsung,56372.32,47140.89,457,39,Active
+342,ELE-000342,Headphones,Electronics,Dell,71813.6,55488.42,165,24,Active
+343,BOO-000343,Machine Learning,Books,Penguin,1772.13,1463.37,6,47,Active
+344,FUR-000344,Bookshelf,Furniture,Nilkamal,31784.48,26962.02,4,48,Active
+345,FUR-000345,Wardrobe,Furniture,Godrej,33917.14,24460.46,205,46,Active
+346,FUR-000346,Wardrobe,Furniture,Godrej,33631.35,26940.54,496,12,Active
+347,FUR-000347,Wardrobe,Furniture,Nilkamal,43461.72,34005.72,196,30,Active
+348,FUR-000348,Study Desk,Furniture,Nilkamal,47658.39,37884.02,235,10,Active
+349,ELE-000349,Monitor,Electronics,Apple,130595.26,106977.28,106,37,Active
+350,FUR-000350,Wardrobe,Furniture,Nilkamal,26509.69,21735.18,398,12,Active
+351,FUR-000351,Dining Table,Furniture,Godrej,41749.63,32016.55,262,28,Active
+352,GRO-000352,Butter,Groceries,Nestle,1238.09,1045.66,229,11,Active
+353,BOO-000353,Python Programming,Books,O'Reilly,1987.56,1663.24,85,14,Active
+354,FUR-000354,Study Desk,Furniture,Godrej,4285.61,3503.18,219,10,Active
+355,ELE-000355,Smartphone,Electronics,HP,38628.24,32793.3,143,20,Active
+356,ELE-000356,Smartphone,Electronics,HP,114961.34,87062.45,53,11,Active
+357,CLO-000357,Sneakers,Clothing,Puma,5671.51,4386.46,446,25,Active
+358,GRO-000358,Milk,Groceries,Britannia,206.77,156.23,210,16,Active
+359,CLO-000359,Hoodie,Clothing,Adidas,1286.04,1103.39,13,35,Active
+360,FUR-000360,Dining Table,Furniture,Nilkamal,5722.3,4827.79,24,30,Active
+361,BOO-000361,Business Analytics,Books,O'Reilly,2733.58,2041.03,133,23,Active
+362,GRO-000362,Coffee,Groceries,Amul,751.62,635.04,376,10,Active
+363,BOO-000363,SQL Fundamentals,Books,O'Reilly,2877.74,2463.36,379,12,Active
+364,CLO-000364,Sneakers,Clothing,Nike,4909.69,3511.14,168,40,Active
+365,BOO-000365,Business Analytics,Books,Penguin,493.78,351.78,229,38,Active
+366,ELE-000366,Tablet,Electronics,Apple,56880.82,43743.74,236,30,Active
+367,GRO-000367,Coffee,Groceries,Amul,676.98,492.41,412,25,Active
+368,ELE-000368,Smartwatch,Electronics,HP,35963.78,25429.16,328,50,Active
+369,ELE-000369,Smartwatch,Electronics,Dell,81630.77,72216.36,11,15,Active
+370,CLO-000370,Sneakers,Clothing,Puma,6028.24,4644.66,142,29,Active
+371,BOO-000371,Machine Learning,Books,Pearson,1997.97,1609.12,184,40,Active
+372,BOO-000372,SQL Fundamentals,Books,Pearson,201.41,145.16,101,45,Active
+373,GRO-000373,Coffee,Groceries,Nestle,578.03,449.21,458,44,Active
+374,GRO-000374,Bread,Groceries,Nestle,1618.25,1144.12,478,35,Active
+375,BOO-000375,Python Programming,Books,O'Reilly,2278.29,2043.17,216,48,Active
+376,GRO-000376,Butter,Groceries,Amul,622.98,551.11,14,28,Active
+377,FUR-000377,Bookshelf,Furniture,IKEA,37560.02,31741.74,50,40,Active
+378,GRO-000378,Milk,Groceries,Amul,385.3,320.58,253,46,Active
+379,FUR-000379,Dining Table,Furniture,IKEA,43183.23,34525.25,349,23,Active
+380,ELE-000380,Smartphone,Electronics,Apple,18634.78,13286.2,457,11,Active
+381,CLO-000381,T-Shirt,Clothing,Levi's,682.74,601.45,493,11,Active
+382,FUR-000382,Study Desk,Furniture,IKEA,74815.62,57042.86,289,36,Active
+383,FUR-000383,Study Desk,Furniture,IKEA,25363.14,21139.77,27,12,Active
+384,GRO-000384,Biscuits,Groceries,Britannia,364.09,262.3,344,25,Active
+385,CLO-000385,Jeans,Clothing,Puma,5609.98,4299.72,312,18,Active
+386,ELE-000386,Smartwatch,Electronics,Sony,94116.08,78352.45,277,23,Active
+387,GRO-000387,Coffee,Groceries,Britannia,1696.43,1299.39,334,39,Active
+388,BOO-000388,Machine Learning,Books,Pearson,1161.3,875.08,400,35,Active
+389,GRO-000389,Butter,Groceries,Amul,338.05,272.29,114,32,Active
+390,ELE-000390,Smartphone,Electronics,Apple,44639.67,31711.09,207,36,Active
+391,FUR-000391,Study Desk,Furniture,Nilkamal,42835.1,38192.49,207,19,Active
+392,CLO-000392,Jacket,Clothing,Nike,2923.11,2421.0,457,39,Active
+393,BOO-000393,Data Science,Books,O'Reilly,181.71,134.85,334,34,Active
+394,BOO-000394,Machine Learning,Books,Pearson,1629.61,1423.67,419,21,Active
+395,BOO-000395,Business Analytics,Books,Pearson,1756.46,1394.55,452,21,Active
+396,GRO-000396,Butter,Groceries,Nestle,562.1,497.93,149,42,Active
+397,BOO-000397,Data Science,Books,Pearson,447.45,368.36,16,38,Active
+398,ELE-000398,Headphones,Electronics,HP,51663.11,36793.99,321,15,Active
+399,GRO-000399,Coffee,Groceries,Amul,1281.16,990.74,361,34,Active
+400,BOO-000400,SQL Fundamentals,Books,Pearson,628.65,545.11,481,25,Active
+401,CLO-000401,Hoodie,Clothing,Nike,7027.44,5636.02,30,37,Active
+402,ELE-000402,Monitor,Electronics,Dell,111315.06,91594.43,432,26,Active
+403,GRO-000403,Coffee,Groceries,Amul,1702.24,1500.15,71,50,Active
+404,FUR-000404,Study Desk,Furniture,IKEA,43241.35,31853.78,393,22,Active
+405,ELE-000405,Smartwatch,Electronics,HP,134126.67,118569.45,409,30,Active
+406,FUR-000406,Bookshelf,Furniture,Nilkamal,16414.05,12487.41,145,12,Active
+407,GRO-000407,Bread,Groceries,Britannia,1215.79,992.19,259,25,Active
+408,GRO-000408,Milk,Groceries,Amul,178.58,127.52,98,38,Active
+409,FUR-000409,Dining Table,Furniture,Godrej,22360.58,19225.72,230,49,Active
+410,GRO-000410,Biscuits,Groceries,Britannia,1345.49,1009.16,435,20,Active
+411,FUR-000411,Dining Table,Furniture,Nilkamal,38040.21,28763.94,157,26,Active
+412,GRO-000412,Biscuits,Groceries,Amul,1073.38,791.6,139,28,Active
+413,FUR-000413,Study Desk,Furniture,Godrej,28363.63,23948.65,58,42,Active
+414,ELE-000414,Laptop,Electronics,HP,77778.49,66783.92,415,23,Active
+415,CLO-000415,Jacket,Clothing,Nike,5372.93,4130.03,330,23,Active
+416,FUR-000416,Study Desk,Furniture,Godrej,55466.68,49747.65,414,16,Active
+417,FUR-000417,Bookshelf,Furniture,Godrej,4385.45,3433.34,341,11,Active
+418,FUR-000418,Dining Table,Furniture,IKEA,34370.18,29086.06,339,14,Active
+419,BOO-000419,Business Analytics,Books,Pearson,2667.14,2385.81,500,32,Active
+420,ELE-000420,Laptop,Electronics,Sony,66798.9,50381.59,101,24,Active
+421,GRO-000421,Biscuits,Groceries,Nestle,795.81,662.58,173,34,Active
+422,ELE-000422,Smartphone,Electronics,Sony,24713.01,21135.27,265,16,Active
+423,CLO-000423,Jacket,Clothing,Levi's,2413.68,2160.25,280,48,Active
+424,CLO-000424,Jacket,Clothing,Nike,1265.5,1138.82,122,41,Active
+425,FUR-000425,Wardrobe,Furniture,IKEA,58263.75,49586.93,66,43,Active
+426,GRO-000426,Bread,Groceries,Amul,457.94,407.72,90,43,Active
+427,GRO-000427,Biscuits,Groceries,Britannia,477.82,344.28,107,48,Active
+428,BOO-000428,Python Programming,Books,Penguin,2521.2,2144.22,114,43,Active
+429,ELE-000429,Monitor,Electronics,Apple,42451.3,31062.89,10,37,Active
+430,BOO-000430,SQL Fundamentals,Books,O'Reilly,942.39,814.26,483,50,Active
+431,GRO-000431,Bread,Groceries,Nestle,78.38,69.33,296,44,Active
+432,BOO-000432,Machine Learning,Books,O'Reilly,1988.47,1487.73,4,36,Active
+433,BOO-000433,Data Science,Books,Pearson,1273.92,1073.88,394,47,Active
+434,BOO-000434,Machine Learning,Books,Penguin,2960.71,2316.78,220,13,Active
+435,FUR-000435,Office Chair,Furniture,Nilkamal,70124.89,58087.92,411,15,Active
+436,ELE-000436,Smartwatch,Electronics,Apple,122560.64,108355.77,326,23,Active
+437,GRO-000437,Bread,Groceries,Britannia,1795.32,1587.18,470,41,Active
+438,ELE-000438,Smartphone,Electronics,Sony,106260.49,83563.16,415,17,Active
+439,ELE-000439,Smartphone,Electronics,Sony,58867.57,42114.64,109,38,Active
+440,CLO-000440,T-Shirt,Clothing,Adidas,5506.31,4635.03,111,19,Active
+441,CLO-000441,T-Shirt,Clothing,Adidas,2543.1,1876.94,130,22,Active
+442,ELE-000442,Laptop,Electronics,Apple,22610.69,20253.58,486,27,Active
+443,ELE-000443,Laptop,Electronics,Apple,40766.14,35229.25,313,18,Active
+444,GRO-000444,Coffee,Groceries,Nestle,719.4,583.73,480,18,Active
+445,BOO-000445,Machine Learning,Books,Penguin,2648.39,2209.3,346,24,Active
+446,GRO-000446,Bread,Groceries,Amul,912.48,718.57,363,17,Active
+447,BOO-000447,SQL Fundamentals,Books,Pearson,1394.11,1125.75,164,50,Active
+448,CLO-000448,Hoodie,Clothing,Puma,7323.28,6108.74,462,10,Active
+449,FUR-000449,Wardrobe,Furniture,IKEA,36676.08,31746.95,361,39,Active
+450,ELE-000450,Monitor,Electronics,HP,60850.6,46833.64,400,19,Active
+451,GRO-000451,Bread,Groceries,Amul,167.86,133.38,105,24,Active
+452,GRO-000452,Butter,Groceries,Britannia,1003.91,755.51,499,39,Active
+453,ELE-000453,Tablet,Electronics,HP,49805.98,38272.15,384,30,Active
+454,ELE-000454,Laptop,Electronics,Dell,99652.57,75777.52,197,10,Active
+455,GRO-000455,Bread,Groceries,Nestle,1032.29,845.43,159,41,Active
+456,GRO-000456,Biscuits,Groceries,Britannia,961.63,677.78,52,36,Active
+457,BOO-000457,Business Analytics,Books,Penguin,1114.62,844.81,225,29,Active
+458,BOO-000458,Data Science,Books,O'Reilly,2542.98,1934.94,395,27,Active
+459,BOO-000459,Data Science,Books,Penguin,2985.03,2413.79,234,39,Active
+460,ELE-000460,Tablet,Electronics,Apple,25225.1,20454.68,237,16,Active
+461,FUR-000461,Bookshelf,Furniture,IKEA,47768.97,34792.54,183,16,Active
+462,BOO-000462,Business Analytics,Books,Pearson,1879.51,1457.14,129,26,Active
+463,CLO-000463,Jeans,Clothing,Puma,5029.2,4409.85,136,16,Active
+464,FUR-000464,Office Chair,Furniture,Godrej,6581.35,5132.53,323,36,Active
+465,ELE-000465,Laptop,Electronics,Sony,33761.42,27549.4,193,43,Active
+466,BOO-000466,SQL Fundamentals,Books,Penguin,2071.58,1496.69,323,12,Active
+467,FUR-000467,Bookshelf,Furniture,Nilkamal,16280.88,12928.3,197,18,Active
+468,GRO-000468,Biscuits,Groceries,Britannia,921.05,699.38,196,46,Active
+469,ELE-000469,Headphones,Electronics,Dell,144755.5,119091.37,367,31,Active
+470,BOO-000470,Machine Learning,Books,Penguin,2630.59,2255.02,4,23,Active
+471,GRO-000471,Milk,Groceries,Nestle,827.43,677.36,120,34,Active
+472,ELE-000472,Tablet,Electronics,Sony,52633.57,39189.57,290,26,Active
+473,GRO-000473,Milk,Groceries,Nestle,1134.6,984.27,79,50,Active
+474,CLO-000474,Sneakers,Clothing,Adidas,7945.86,7132.58,397,14,Active
+475,GRO-000475,Milk,Groceries,Amul,1240.99,935.64,179,19,Active
+476,BOO-000476,Data Science,Books,Pearson,2419.83,2174.35,53,39,Active
+477,BOO-000477,Python Programming,Books,Penguin,1001.47,893.92,463,17,Active
+478,BOO-000478,Machine Learning,Books,O'Reilly,1216.7,947.75,41,43,Active
+479,FUR-000479,Wardrobe,Furniture,IKEA,45887.98,32356.17,68,45,Active
+480,ELE-000480,Headphones,Electronics,Sony,104054.09,88944.67,189,12,Active
+481,BOO-000481,Machine Learning,Books,Pearson,2715.24,2432.53,248,35,Active
+482,GRO-000482,Bread,Groceries,Amul,1878.48,1454.87,284,21,Active
+483,GRO-000483,Coffee,Groceries,Britannia,1802.37,1266.74,104,36,Active
+484,ELE-000484,Monitor,Electronics,Apple,128376.66,99598.82,10,25,Active
+485,CLO-000485,Sneakers,Clothing,Adidas,1083.71,838.69,268,31,Active
+486,FUR-000486,Bookshelf,Furniture,Godrej,51106.61,45145.9,100,42,Active
+487,FUR-000487,Bookshelf,Furniture,IKEA,27600.52,21165.77,228,38,Active
+488,CLO-000488,Jeans,Clothing,Puma,1078.98,775.75,308,24,Active
+489,BOO-000489,Data Science,Books,Penguin,2736.84,2078.46,364,12,Active
+490,CLO-000490,Sneakers,Clothing,Adidas,3636.73,2995.13,35,10,Active
+491,FUR-000491,Wardrobe,Furniture,Nilkamal,14756.72,12655.08,413,23,Active
+492,ELE-000492,Smartwatch,Electronics,HP,141216.29,101636.02,141,44,Active
+493,FUR-000493,Wardrobe,Furniture,IKEA,15245.33,13645.48,208,15,Active
+494,CLO-000494,Hoodie,Clothing,Adidas,4296.09,3817.14,165,34,Active
+495,BOO-000495,SQL Fundamentals,Books,Pearson,349.94,249.82,54,34,Active
+496,FUR-000496,Bookshelf,Furniture,Nilkamal,77510.5,69753.94,110,41,Active
+497,GRO-000497,Bread,Groceries,Nestle,206.66,159.03,224,41,Active
+498,ELE-000498,Headphones,Electronics,Samsung,89376.79,78073.08,12,46,Active
+499,FUR-000499,Dining Table,Furniture,Godrej,75382.07,62425.71,57,45,Active
+500,BOO-000500,SQL Fundamentals,Books,Pearson,1622.2,1399.69,135,44,Active
+501,CLO-000501,Jacket,Clothing,Nike,7102.18,6335.93,208,34,Active
+502,CLO-000502,Jeans,Clothing,Levi's,4746.52,3486.1,284,15,Active
+503,BOO-000503,Machine Learning,Books,O'Reilly,2334.8,1844.14,177,45,Active
+504,ELE-000504,Smartwatch,Electronics,Dell,147057.49,125542.94,358,29,Active
+505,CLO-000505,T-Shirt,Clothing,Puma,4962.14,4387.8,78,27,Active
+506,GRO-000506,Milk,Groceries,Britannia,1203.42,852.96,193,19,Active
+507,BOO-000507,Machine Learning,Books,O'Reilly,1942.29,1473.0,109,42,Active
+508,FUR-000508,Dining Table,Furniture,Nilkamal,51734.23,45807.25,54,23,Active
+509,BOO-000509,Machine Learning,Books,Pearson,2788.68,2256.38,438,23,Active
+510,BOO-000510,Business Analytics,Books,Pearson,1629.76,1366.53,268,36,Active
+511,GRO-000511,Milk,Groceries,Nestle,1423.91,1231.87,318,39,Active
+512,FUR-000512,Study Desk,Furniture,Godrej,21760.09,15684.63,38,39,Active
+513,ELE-000513,Smartphone,Electronics,Sony,24401.52,18024.23,18,31,Active
+514,ELE-000514,Headphones,Electronics,Apple,42610.75,31510.5,131,49,Active
+515,FUR-000515,Office Chair,Furniture,IKEA,73440.53,64600.15,500,14,Active
+516,CLO-000516,Hoodie,Clothing,Nike,3796.63,3157.1,375,11,Active
+517,ELE-000517,Smartwatch,Electronics,Sony,11961.98,8523.89,359,15,Active
+518,FUR-000518,Study Desk,Furniture,IKEA,28368.39,20958.3,359,46,Active
+519,CLO-000519,T-Shirt,Clothing,Nike,6076.91,4480.72,180,29,Active
+520,GRO-000520,Bread,Groceries,Amul,1242.26,1080.87,494,42,Active
+521,ELE-000521,Tablet,Electronics,Apple,11387.08,9069.62,298,31,Active
+522,BOO-000522,Machine Learning,Books,Penguin,2326.33,1704.7,51,34,Active
+523,ELE-000523,Tablet,Electronics,HP,136095.46,103421.85,237,25,Active
+524,BOO-000524,SQL Fundamentals,Books,Pearson,1374.33,1160.69,368,12,Active
+525,CLO-000525,Sneakers,Clothing,Nike,2572.59,2054.69,81,37,Active
+526,GRO-000526,Biscuits,Groceries,Nestle,1398.43,990.51,395,49,Active
+527,ELE-000527,Smartphone,Electronics,Sony,77741.84,69283.97,215,16,Active
+528,BOO-000528,Business Analytics,Books,Penguin,429.43,369.78,326,31,Active
+529,FUR-000529,Office Chair,Furniture,Nilkamal,38292.32,30463.99,276,38,Active
+530,CLO-000530,Hoodie,Clothing,Puma,6284.01,5578.82,431,33,Active
+531,GRO-000531,Biscuits,Groceries,Britannia,1849.5,1393.42,22,23,Active
+532,BOO-000532,Machine Learning,Books,Penguin,1868.66,1595.0,390,35,Active
+533,GRO-000533,Butter,Groceries,Amul,1546.24,1310.78,206,22,Active
+534,CLO-000534,Jacket,Clothing,Nike,1824.44,1513.07,325,12,Active
+535,BOO-000535,Python Programming,Books,O'Reilly,1614.01,1401.62,234,47,Active
+536,CLO-000536,Jacket,Clothing,Puma,5063.77,4121.6,178,11,Active
+537,GRO-000537,Butter,Groceries,Nestle,806.25,680.53,114,12,Active
+538,BOO-000538,Python Programming,Books,O'Reilly,664.64,585.9,332,25,Active
+539,FUR-000539,Wardrobe,Furniture,Nilkamal,76052.25,58763.44,79,28,Active
+540,GRO-000540,Biscuits,Groceries,Nestle,1549.48,1381.97,487,31,Active
+541,CLO-000541,Sneakers,Clothing,Nike,3916.62,3255.59,69,35,Active
+542,BOO-000542,SQL Fundamentals,Books,Penguin,1595.76,1298.41,362,38,Active
+543,GRO-000543,Bread,Groceries,Amul,625.78,463.0,199,18,Active
+544,FUR-000544,Office Chair,Furniture,IKEA,11371.84,9678.46,60,33,Active
+545,FUR-000545,Study Desk,Furniture,Nilkamal,60500.28,43989.85,477,49,Active
+546,CLO-000546,Sneakers,Clothing,Puma,5606.63,4037.96,451,36,Active
+547,GRO-000547,Milk,Groceries,Britannia,1028.68,852.49,336,46,Active
+548,CLO-000548,Jacket,Clothing,Puma,3519.79,3157.84,166,40,Active
+549,ELE-000549,Monitor,Electronics,Samsung,34212.36,27843.94,386,24,Active
+550,CLO-000550,Hoodie,Clothing,Levi's,6942.81,5637.83,294,26,Active
+551,CLO-000551,Sneakers,Clothing,Levi's,2036.77,1645.44,347,14,Active
+552,GRO-000552,Bread,Groceries,Nestle,1022.27,911.12,434,42,Active
+553,GRO-000553,Biscuits,Groceries,Amul,1229.56,1005.43,229,44,Active
+554,CLO-000554,T-Shirt,Clothing,Puma,7317.38,5757.2,331,34,Active
+555,FUR-000555,Wardrobe,Furniture,Godrej,44619.62,31377.09,491,20,Active
+556,CLO-000556,Jeans,Clothing,Levi's,1061.53,832.4,349,45,Active
+557,FUR-000557,Dining Table,Furniture,IKEA,33293.47,23886.89,469,50,Active
+558,FUR-000558,Bookshelf,Furniture,Nilkamal,8456.74,6460.57,367,10,Active
+559,CLO-000559,Hoodie,Clothing,Adidas,5512.76,4138.41,68,23,Active
+560,CLO-000560,Jeans,Clothing,Puma,1332.05,949.63,131,13,Active
+561,GRO-000561,Milk,Groceries,Britannia,438.34,321.37,234,41,Active
+562,FUR-000562,Office Chair,Furniture,IKEA,42279.65,36135.65,138,13,Active
+563,ELE-000563,Smartwatch,Electronics,Samsung,89166.02,76812.37,312,33,Active
+564,GRO-000564,Coffee,Groceries,Britannia,73.56,60.44,274,16,Active
+565,GRO-000565,Biscuits,Groceries,Britannia,1771.0,1510.76,290,44,Active
+566,ELE-000566,Monitor,Electronics,HP,117985.02,85002.5,289,17,Active
+567,FUR-000567,Wardrobe,Furniture,Godrej,41725.36,31792.82,89,50,Active
+568,BOO-000568,Business Analytics,Books,Pearson,1846.06,1327.48,43,20,Active
+569,FUR-000569,Wardrobe,Furniture,IKEA,68426.61,50189.37,409,22,Active
+570,ELE-000570,Tablet,Electronics,Sony,60053.06,44237.82,111,49,Active
+571,BOO-000571,Machine Learning,Books,Pearson,1017.44,901.65,483,29,Active
+572,GRO-000572,Milk,Groceries,Amul,268.15,204.4,228,17,Active
+573,GRO-000573,Bread,Groceries,Amul,214.15,184.12,350,15,Active
+574,GRO-000574,Butter,Groceries,Amul,319.77,233.35,214,31,Active
+575,ELE-000575,Monitor,Electronics,Samsung,129123.77,114403.18,241,15,Active
+576,BOO-000576,Business Analytics,Books,O'Reilly,577.17,490.22,475,32,Active
+577,CLO-000577,Jacket,Clothing,Adidas,6891.93,5523.42,15,37,Active
+578,BOO-000578,Data Science,Books,Pearson,2789.68,2288.44,318,40,Active
+579,BOO-000579,Data Science,Books,Pearson,1232.01,862.66,230,18,Active
+580,ELE-000580,Headphones,Electronics,HP,94329.86,82813.3,368,32,Active
+581,CLO-000581,T-Shirt,Clothing,Adidas,6057.73,4339.5,221,46,Active
+582,GRO-000582,Bread,Groceries,Britannia,75.28,67.38,142,49,Active
+583,ELE-000583,Laptop,Electronics,Sony,87032.92,70594.31,271,25,Active
+584,ELE-000584,Headphones,Electronics,Samsung,133229.15,94681.42,6,34,Active
+585,FUR-000585,Bookshelf,Furniture,Godrej,7002.0,5998.07,472,48,Active
+586,CLO-000586,Jeans,Clothing,Nike,2097.87,1836.45,353,42,Active
+587,GRO-000587,Biscuits,Groceries,Amul,256.13,199.3,367,39,Active
+588,BOO-000588,Data Science,Books,Pearson,1665.02,1468.63,73,48,Active
+589,CLO-000589,Jacket,Clothing,Adidas,2950.06,2341.84,360,16,Active
+590,FUR-000590,Wardrobe,Furniture,Nilkamal,57212.65,41144.61,488,30,Active
+591,ELE-000591,Headphones,Electronics,Sony,43623.94,35926.6,440,31,Active
+592,ELE-000592,Laptop,Electronics,Samsung,53829.26,48240.97,33,28,Active
+593,BOO-000593,Python Programming,Books,O'Reilly,346.16,287.99,459,43,Active
+594,CLO-000594,Jeans,Clothing,Puma,1574.73,1280.55,352,35,Active
+595,CLO-000595,T-Shirt,Clothing,Adidas,3662.96,3292.41,170,26,Active
+596,ELE-000596,Smartphone,Electronics,Apple,133345.88,105426.86,470,36,Active
+597,FUR-000597,Dining Table,Furniture,Godrej,70514.78,55679.85,400,27,Active
+598,GRO-000598,Bread,Groceries,Britannia,1071.72,830.46,248,28,Active
+599,FUR-000599,Dining Table,Furniture,IKEA,47968.59,41027.83,183,31,Active
+600,ELE-000600,Headphones,Electronics,Apple,116697.54,93938.05,441,47,Active
+601,GRO-000601,Biscuits,Groceries,Nestle,1698.13,1205.34,199,17,Active
+602,BOO-000602,Business Analytics,Books,Pearson,2040.33,1568.12,111,12,Active
+603,ELE-000603,Smartphone,Electronics,Sony,121596.32,100208.39,265,49,Active
+604,ELE-000604,Headphones,Electronics,HP,146267.03,107195.96,232,36,Active
+605,CLO-000605,T-Shirt,Clothing,Levi's,3666.55,2816.09,173,48,Active
+606,FUR-000606,Study Desk,Furniture,IKEA,49704.79,38341.9,260,40,Active
+607,CLO-000607,T-Shirt,Clothing,Levi's,5688.34,4125.66,447,14,Active
+608,BOO-000608,Python Programming,Books,Penguin,1581.91,1110.42,375,47,Active
+609,ELE-000609,Smartphone,Electronics,Sony,118912.63,105766.54,192,42,Active
+610,GRO-000610,Butter,Groceries,Britannia,1206.51,875.91,85,24,Active
+611,BOO-000611,Data Science,Books,O'Reilly,2564.81,2197.83,410,23,Active
+612,BOO-000612,Data Science,Books,Penguin,952.85,804.78,27,33,Active
+613,CLO-000613,T-Shirt,Clothing,Puma,1668.71,1186.0,468,13,Active
+614,CLO-000614,Jacket,Clothing,Adidas,6846.42,5669.05,39,34,Active
+615,ELE-000615,Monitor,Electronics,Dell,129202.76,104016.04,278,38,Active
+616,BOO-000616,Data Science,Books,O'Reilly,357.39,291.68,220,41,Active
+617,ELE-000617,Smartwatch,Electronics,Dell,64485.16,57856.64,277,11,Active
+618,FUR-000618,Dining Table,Furniture,Nilkamal,13123.58,9454.44,41,16,Active
+619,BOO-000619,Python Programming,Books,Pearson,1519.48,1090.55,97,35,Active
+620,GRO-000620,Butter,Groceries,Nestle,892.34,779.33,287,17,Active
+621,FUR-000621,Office Chair,Furniture,Godrej,55803.73,42496.0,143,41,Active
+622,GRO-000622,Biscuits,Groceries,Nestle,251.42,211.14,57,29,Active
+623,BOO-000623,SQL Fundamentals,Books,Penguin,241.21,191.8,358,33,Active
+624,BOO-000624,Python Programming,Books,O'Reilly,1565.47,1185.15,500,31,Active
+625,ELE-000625,Tablet,Electronics,Samsung,128038.98,95381.08,120,37,Active
+626,GRO-000626,Biscuits,Groceries,Britannia,1670.15,1290.79,94,35,Active
+627,FUR-000627,Office Chair,Furniture,Nilkamal,65538.41,46718.45,367,17,Active
+628,FUR-000628,Study Desk,Furniture,IKEA,65887.73,46249.38,384,16,Active
+629,ELE-000629,Monitor,Electronics,HP,117643.02,90248.24,126,19,Active
+630,FUR-000630,Office Chair,Furniture,Godrej,36289.35,29992.3,412,15,Active
+631,ELE-000631,Tablet,Electronics,HP,49902.62,39860.3,400,48,Active
+632,GRO-000632,Milk,Groceries,Amul,705.78,611.48,361,44,Active
+633,BOO-000633,Machine Learning,Books,Pearson,1733.11,1303.94,363,43,Active
+634,BOO-000634,Data Science,Books,Pearson,1338.79,997.17,219,42,Active
+635,FUR-000635,Dining Table,Furniture,IKEA,61603.54,54472.85,456,35,Active
+636,FUR-000636,Dining Table,Furniture,IKEA,76616.24,67853.99,28,24,Active
+637,FUR-000637,Office Chair,Furniture,Nilkamal,40503.44,35860.36,474,14,Active
+638,CLO-000638,Jeans,Clothing,Levi's,7688.37,5725.77,385,24,Active
+639,CLO-000639,Sneakers,Clothing,Adidas,4166.88,3281.92,255,35,Active
+640,GRO-000640,Bread,Groceries,Amul,549.61,454.82,74,45,Active
+641,ELE-000641,Smartphone,Electronics,HP,86885.68,72864.68,311,29,Active
+642,BOO-000642,Business Analytics,Books,O'Reilly,2124.9,1618.88,109,22,Active
+643,FUR-000643,Wardrobe,Furniture,Nilkamal,18967.82,14625.55,57,11,Active
+644,CLO-000644,T-Shirt,Clothing,Levi's,7589.59,6141.45,310,34,Active
+645,BOO-000645,SQL Fundamentals,Books,Penguin,2882.03,2451.53,184,25,Active
+646,GRO-000646,Butter,Groceries,Nestle,1474.71,1214.35,298,28,Active
+647,FUR-000647,Office Chair,Furniture,IKEA,15220.69,12208.58,361,22,Active
+648,BOO-000648,SQL Fundamentals,Books,Penguin,2505.03,2228.73,123,44,Active
+649,CLO-000649,Sneakers,Clothing,Levi's,3785.1,3065.06,344,32,Active
+650,CLO-000650,Hoodie,Clothing,Nike,5251.0,3795.75,319,29,Active
+651,CLO-000651,T-Shirt,Clothing,Adidas,1807.26,1564.16,428,49,Active
+652,FUR-000652,Study Desk,Furniture,IKEA,28312.85,23554.4,67,20,Active
+653,BOO-000653,Business Analytics,Books,Pearson,497.81,394.05,297,30,Active
+654,FUR-000654,Bookshelf,Furniture,Nilkamal,17057.9,13409.22,27,26,Active
+655,ELE-000655,Headphones,Electronics,HP,27864.59,22732.94,488,13,Active
+656,ELE-000656,Laptop,Electronics,HP,71010.26,63181.98,109,13,Active
+657,FUR-000657,Office Chair,Furniture,Nilkamal,15448.09,13158.89,439,40,Active
+658,ELE-000658,Smartphone,Electronics,Apple,149686.81,125155.67,174,44,Active
+659,GRO-000659,Milk,Groceries,Britannia,1068.39,862.86,343,30,Active
+660,ELE-000660,Smartwatch,Electronics,Apple,126932.73,100279.24,61,36,Active
+661,GRO-000661,Butter,Groceries,Nestle,1655.45,1377.7,287,22,Active
+662,FUR-000662,Dining Table,Furniture,IKEA,5278.85,4338.29,21,41,Active
+663,GRO-000663,Butter,Groceries,Britannia,1794.96,1378.65,22,16,Active
+664,FUR-000664,Dining Table,Furniture,IKEA,72680.97,62288.97,474,38,Active
+665,CLO-000665,Jacket,Clothing,Adidas,2021.82,1558.86,195,31,Active
+666,CLO-000666,Jacket,Clothing,Nike,725.49,588.94,478,46,Active
+667,FUR-000667,Bookshelf,Furniture,Godrej,62372.87,55258.94,399,12,Active
+668,FUR-000668,Office Chair,Furniture,IKEA,34507.32,26869.89,468,42,Active
+669,CLO-000669,Sneakers,Clothing,Puma,7848.58,6597.64,165,23,Active
+670,CLO-000670,Hoodie,Clothing,Adidas,974.27,789.46,198,19,Active
+671,FUR-000671,Study Desk,Furniture,Godrej,57983.24,43913.33,150,49,Active
+672,FUR-000672,Study Desk,Furniture,IKEA,35019.8,25276.56,331,49,Active
+673,CLO-000673,Sneakers,Clothing,Levi's,4127.37,3118.98,151,25,Active
+674,GRO-000674,Coffee,Groceries,Britannia,1158.39,919.8,455,16,Active
+675,GRO-000675,Butter,Groceries,Amul,1498.57,1321.04,66,42,Active
+676,FUR-000676,Dining Table,Furniture,Nilkamal,14967.92,11621.22,31,13,Active
+677,GRO-000677,Biscuits,Groceries,Nestle,1592.24,1352.35,84,33,Active
+678,GRO-000678,Biscuits,Groceries,Amul,1973.36,1566.79,113,13,Active
+679,ELE-000679,Smartphone,Electronics,Apple,99055.71,82166.51,136,15,Active
+680,BOO-000680,SQL Fundamentals,Books,O'Reilly,718.24,609.54,345,39,Active
+681,CLO-000681,T-Shirt,Clothing,Levi's,6142.95,4571.56,27,32,Active
+682,CLO-000682,Sneakers,Clothing,Nike,7950.57,6097.24,124,49,Active
+683,ELE-000683,Headphones,Electronics,Dell,60667.78,54283.72,71,30,Active
+684,CLO-000684,T-Shirt,Clothing,Levi's,7694.33,6713.54,148,14,Active
+685,BOO-000685,Data Science,Books,Pearson,2478.68,1800.74,43,41,Active
+686,GRO-000686,Biscuits,Groceries,Amul,302.69,227.96,295,15,Active
+687,ELE-000687,Laptop,Electronics,HP,54623.89,41968.94,395,45,Active
+688,CLO-000688,T-Shirt,Clothing,Adidas,700.11,514.56,432,43,Active
+689,FUR-000689,Office Chair,Furniture,Nilkamal,25539.87,19318.13,486,13,Active
+690,ELE-000690,Smartwatch,Electronics,HP,80948.47,72615.91,141,44,Active
+691,CLO-000691,Jeans,Clothing,Adidas,3551.82,2720.38,460,45,Active
+692,CLO-000692,T-Shirt,Clothing,Nike,7205.36,6216.58,151,37,Active
+693,CLO-000693,Jeans,Clothing,Puma,2123.98,1605.5,389,31,Active
+694,FUR-000694,Office Chair,Furniture,Nilkamal,55223.44,49616.38,398,46,Active
+695,BOO-000695,Business Analytics,Books,Penguin,1298.14,989.88,183,30,Active
+696,CLO-000696,Jeans,Clothing,Nike,3867.13,3453.95,275,48,Active
+697,ELE-000697,Smartphone,Electronics,Sony,81914.55,68992.57,118,33,Active
+698,FUR-000698,Wardrobe,Furniture,IKEA,10864.47,9754.68,289,34,Active
+699,GRO-000699,Bread,Groceries,Nestle,962.09,810.64,378,22,Active
+700,CLO-000700,Jacket,Clothing,Puma,5286.53,4194.22,44,18,Active
+701,ELE-000701,Headphones,Electronics,Samsung,20617.55,16258.42,314,23,Active
+702,ELE-000702,Smartwatch,Electronics,Dell,30868.36,25015.62,334,33,Active
+703,GRO-000703,Bread,Groceries,Nestle,1469.37,1051.6,196,40,Active
+704,GRO-000704,Bread,Groceries,Nestle,1167.92,964.71,353,30,Active
+705,FUR-000705,Study Desk,Furniture,Nilkamal,24638.06,20756.8,323,33,Active
+706,BOO-000706,Data Science,Books,Pearson,2699.45,2114.99,285,11,Active
+707,FUR-000707,Dining Table,Furniture,Godrej,43445.07,37100.89,3,23,Active
+708,CLO-000708,Jacket,Clothing,Puma,2290.65,1818.91,369,34,Active
+709,BOO-000709,Business Analytics,Books,Penguin,1777.6,1327.17,372,38,Active
+710,GRO-000710,Biscuits,Groceries,Nestle,172.99,123.98,349,23,Active
+711,ELE-000711,Smartwatch,Electronics,Samsung,75329.79,65700.57,136,15,Active
+712,FUR-000712,Bookshelf,Furniture,Godrej,66300.53,46717.19,70,11,Active
+713,GRO-000713,Coffee,Groceries,Britannia,431.58,345.71,205,43,Active
+714,CLO-000714,T-Shirt,Clothing,Adidas,3533.38,3023.99,309,19,Active
+715,CLO-000715,Jeans,Clothing,Nike,728.01,653.2,482,14,Active
+716,CLO-000716,T-Shirt,Clothing,Adidas,1147.12,854.53,347,19,Active
+717,FUR-000717,Dining Table,Furniture,Godrej,73513.26,58280.68,36,30,Active
+718,CLO-000718,Jacket,Clothing,Nike,1410.01,1124.38,283,18,Active
+719,GRO-000719,Bread,Groceries,Nestle,183.62,153.34,274,37,Active
+720,ELE-000720,Monitor,Electronics,Sony,13345.69,9589.71,161,50,Active
+721,ELE-000721,Headphones,Electronics,Apple,13383.15,11169.52,206,44,Active
+722,GRO-000722,Coffee,Groceries,Britannia,1785.69,1563.9,256,44,Active
+723,CLO-000723,Jeans,Clothing,Puma,2476.78,1926.54,120,50,Active
+724,ELE-000724,Monitor,Electronics,HP,138418.92,106503.62,9,43,Active
+725,BOO-000725,Python Programming,Books,Pearson,155.02,124.59,394,43,Active
+726,GRO-000726,Bread,Groceries,Nestle,678.42,543.74,244,47,Active
+727,CLO-000727,Jeans,Clothing,Adidas,4457.03,3601.84,189,33,Active
+728,ELE-000728,Smartphone,Electronics,Apple,41335.02,30917.94,29,20,Active
+729,ELE-000729,Laptop,Electronics,Sony,75382.77,66530.25,289,25,Active
+730,ELE-000730,Smartwatch,Electronics,Apple,126523.16,108770.01,452,30,Active
+731,CLO-000731,Sneakers,Clothing,Levi's,2705.34,2229.97,221,27,Active
+732,BOO-000732,Data Science,Books,Penguin,1361.57,981.51,43,48,Active
+733,FUR-000733,Dining Table,Furniture,IKEA,11615.69,9991.33,357,41,Active
+734,FUR-000734,Wardrobe,Furniture,IKEA,77956.26,59277.64,475,34,Active
+735,BOO-000735,Python Programming,Books,Pearson,2031.0,1480.37,271,14,Active
+736,ELE-000736,Monitor,Electronics,Dell,148904.48,126925.76,325,35,Active
+737,FUR-000737,Study Desk,Furniture,Godrej,46073.53,33739.14,52,26,Active
+738,GRO-000738,Coffee,Groceries,Britannia,1506.78,1090.9,226,33,Active
+739,CLO-000739,Jacket,Clothing,Puma,1528.06,1089.19,258,39,Active
+740,GRO-000740,Milk,Groceries,Britannia,334.53,299.75,210,12,Active
+741,BOO-000741,SQL Fundamentals,Books,Penguin,1015.48,733.43,482,42,Active
+742,GRO-000742,Coffee,Groceries,Amul,1000.58,870.33,253,15,Active
+743,ELE-000743,Smartphone,Electronics,Sony,129528.54,104678.93,313,23,Active
+744,GRO-000744,Milk,Groceries,Amul,670.94,507.59,303,41,Active
+745,FUR-000745,Bookshelf,Furniture,Nilkamal,78455.92,57547.21,447,35,Active
+746,BOO-000746,Machine Learning,Books,O'Reilly,249.94,181.09,11,28,Active
+747,GRO-000747,Butter,Groceries,Britannia,522.38,411.33,97,12,Active
+748,ELE-000748,Monitor,Electronics,Sony,36663.28,29660.83,471,47,Active
+749,GRO-000749,Milk,Groceries,Britannia,1235.57,1079.58,379,42,Active
+750,GRO-000750,Milk,Groceries,Britannia,1173.14,981.3,46,11,Active
+751,GRO-000751,Bread,Groceries,Amul,992.84,791.67,106,23,Active
+752,ELE-000752,Tablet,Electronics,Dell,115790.87,87909.51,477,26,Active
+753,FUR-000753,Dining Table,Furniture,IKEA,52857.56,46714.16,250,42,Active
+754,ELE-000754,Tablet,Electronics,Dell,75131.37,57004.53,84,40,Active
+755,GRO-000755,Bread,Groceries,Amul,140.49,119.96,318,50,Active
+756,GRO-000756,Bread,Groceries,Amul,1563.87,1373.73,9,37,Active
+757,CLO-000757,Jeans,Clothing,Levi's,735.56,594.73,61,42,Active
+758,ELE-000758,Monitor,Electronics,Samsung,131392.6,105483.73,190,40,Active
+759,GRO-000759,Biscuits,Groceries,Britannia,200.41,142.34,287,13,Active
+760,GRO-000760,Bread,Groceries,Nestle,1432.96,1233.17,483,46,Active
+761,ELE-000761,Smartphone,Electronics,Samsung,20743.91,17381.22,407,18,Active
+762,CLO-000762,Jeans,Clothing,Nike,5532.44,4703.34,72,20,Active
+763,ELE-000763,Headphones,Electronics,Sony,32816.64,26507.67,389,17,Active
+764,ELE-000764,Laptop,Electronics,HP,25625.6,21733.46,399,41,Active
+765,GRO-000765,Bread,Groceries,Amul,910.25,742.14,113,28,Active
+766,ELE-000766,Smartwatch,Electronics,Sony,139987.54,116664.4,496,13,Active
+767,BOO-000767,Data Science,Books,O'Reilly,2491.26,2169.65,306,20,Active
+768,ELE-000768,Headphones,Electronics,Apple,32810.77,25814.22,197,41,Active
+769,BOO-000769,Machine Learning,Books,Penguin,834.12,634.98,168,50,Active
+770,FUR-000770,Wardrobe,Furniture,Nilkamal,13231.6,10228.7,375,16,Active
+771,ELE-000771,Smartphone,Electronics,Samsung,108518.29,85709.64,21,16,Active
+772,GRO-000772,Coffee,Groceries,Amul,1589.66,1243.71,105,33,Active
+773,ELE-000773,Smartwatch,Electronics,Apple,62086.2,44643.59,479,26,Active
+774,BOO-000774,SQL Fundamentals,Books,Penguin,512.64,402.2,341,43,Active
+775,BOO-000775,Data Science,Books,Pearson,2928.14,2454.89,447,37,Active
+776,FUR-000776,Dining Table,Furniture,Godrej,42580.46,37622.63,218,18,Active
+777,BOO-000777,Python Programming,Books,O'Reilly,2864.3,2454.95,331,24,Active
+778,GRO-000778,Bread,Groceries,Nestle,1407.91,1113.92,13,17,Active
+779,FUR-000779,Office Chair,Furniture,IKEA,33178.87,28305.62,493,47,Active
+780,ELE-000780,Monitor,Electronics,Samsung,127012.46,95974.98,165,36,Active
+781,GRO-000781,Milk,Groceries,Amul,1403.6,1261.88,325,31,Active
+782,GRO-000782,Biscuits,Groceries,Britannia,642.74,567.56,362,37,Active
+783,CLO-000783,Jeans,Clothing,Puma,3950.79,2920.75,61,23,Active
+784,ELE-000784,Laptop,Electronics,Dell,83008.44,59065.96,377,34,Active
+785,ELE-000785,Smartwatch,Electronics,Apple,138151.06,112113.96,267,17,Active
+786,ELE-000786,Laptop,Electronics,Apple,66758.99,56958.53,222,47,Active
+787,ELE-000787,Smartwatch,Electronics,Dell,81070.05,57811.37,226,25,Active
+788,ELE-000788,Smartphone,Electronics,HP,149826.62,129346.3,466,34,Active
+789,BOO-000789,Python Programming,Books,Pearson,941.2,805.15,114,47,Active
+790,GRO-000790,Biscuits,Groceries,Britannia,220.07,178.54,237,49,Active
+791,GRO-000791,Coffee,Groceries,Amul,435.05,379.6,424,23,Active
+792,GRO-000792,Milk,Groceries,Britannia,1736.06,1446.28,185,40,Active
+793,BOO-000793,Python Programming,Books,Pearson,783.2,598.43,231,32,Active
+794,ELE-000794,Smartphone,Electronics,Apple,63034.92,54144.52,32,14,Active
+795,BOO-000795,Business Analytics,Books,Penguin,218.92,155.14,181,47,Active
+796,GRO-000796,Milk,Groceries,Britannia,1323.95,962.81,358,43,Active
+797,ELE-000797,Tablet,Electronics,Dell,93248.39,66270.85,32,13,Active
+798,FUR-000798,Wardrobe,Furniture,Godrej,54783.5,42996.3,84,47,Active
+799,BOO-000799,Python Programming,Books,O'Reilly,1631.97,1353.81,416,41,Active
+800,GRO-000800,Biscuits,Groceries,Nestle,619.49,483.9,96,17,Active
+801,FUR-000801,Wardrobe,Furniture,IKEA,8250.56,6013.61,162,45,Active
+802,BOO-000802,Data Science,Books,Penguin,2618.74,2206.36,410,26,Active
+803,CLO-000803,Sneakers,Clothing,Nike,3346.91,2425.72,430,50,Active
+804,CLO-000804,Sneakers,Clothing,Nike,795.22,689.16,312,31,Active
+805,FUR-000805,Bookshelf,Furniture,Godrej,9057.49,6493.15,216,15,Active
+806,GRO-000806,Bread,Groceries,Britannia,670.55,597.31,351,16,Active
+807,CLO-000807,T-Shirt,Clothing,Levi's,2886.32,2210.36,476,42,Active
+808,ELE-000808,Laptop,Electronics,Dell,124650.19,89169.29,496,42,Active
+809,ELE-000809,Headphones,Electronics,Samsung,78040.01,63763.56,307,20,Active
+810,ELE-000810,Monitor,Electronics,HP,50487.9,39253.62,148,35,Active
+811,BOO-000811,Python Programming,Books,O'Reilly,2826.96,2225.01,186,46,Active
+812,CLO-000812,Jeans,Clothing,Puma,3485.1,3034.41,368,10,Active
+813,BOO-000813,Python Programming,Books,O'Reilly,994.55,764.17,499,36,Active
+814,ELE-000814,Monitor,Electronics,Samsung,38951.29,34376.31,26,37,Active
+815,GRO-000815,Bread,Groceries,Britannia,1400.34,1104.89,213,37,Active
+816,FUR-000816,Office Chair,Furniture,Nilkamal,79427.57,65778.31,164,20,Active
+817,CLO-000817,Jeans,Clothing,Levi's,1014.96,868.62,414,10,Active
+818,BOO-000818,Data Science,Books,Pearson,2553.61,2156.39,239,40,Active
+819,CLO-000819,Hoodie,Clothing,Adidas,7332.41,6580.08,271,13,Active
+820,BOO-000820,Data Science,Books,O'Reilly,2006.96,1729.8,141,17,Active
+821,CLO-000821,Jeans,Clothing,Levi's,2543.61,1985.49,273,46,Active
+822,ELE-000822,Smartwatch,Electronics,Sony,17710.42,13096.97,12,26,Active
+823,GRO-000823,Bread,Groceries,Amul,1372.71,1168.56,403,16,Active
+824,GRO-000824,Bread,Groceries,Nestle,1720.96,1442.7,282,20,Active
+825,BOO-000825,Data Science,Books,O'Reilly,2976.6,2633.25,400,49,Active
+826,BOO-000826,SQL Fundamentals,Books,O'Reilly,225.84,175.8,430,19,Active
+827,ELE-000827,Tablet,Electronics,Dell,42113.5,30902.83,143,42,Active
+828,FUR-000828,Dining Table,Furniture,Nilkamal,34032.84,26744.87,279,27,Active
+829,FUR-000829,Dining Table,Furniture,Nilkamal,63534.64,56995.41,360,10,Active
+830,GRO-000830,Milk,Groceries,Britannia,980.22,841.51,428,47,Active
+831,GRO-000831,Biscuits,Groceries,Nestle,1271.42,994.82,269,18,Active
+832,BOO-000832,Machine Learning,Books,Pearson,1761.83,1368.69,204,40,Active
+833,ELE-000833,Smartphone,Electronics,Sony,149697.55,128588.53,70,17,Active
+834,FUR-000834,Bookshelf,Furniture,Godrej,77645.97,58732.64,157,24,Active
+835,ELE-000835,Smartphone,Electronics,Dell,126476.92,97209.9,392,47,Active
+836,FUR-000836,Bookshelf,Furniture,Godrej,62940.95,47024.5,120,13,Active
+837,BOO-000837,Data Science,Books,Pearson,200.41,144.81,338,48,Active
+838,GRO-000838,Butter,Groceries,Amul,1974.9,1502.05,155,40,Active
+839,BOO-000839,Business Analytics,Books,Penguin,947.39,679.46,3,22,Active
+840,FUR-000840,Office Chair,Furniture,IKEA,23406.2,17132.09,83,25,Active
+841,BOO-000841,Business Analytics,Books,Penguin,2400.25,1933.44,421,20,Active
+842,FUR-000842,Office Chair,Furniture,Nilkamal,17764.72,14771.25,455,48,Active
+843,CLO-000843,Sneakers,Clothing,Puma,7916.28,6659.32,305,19,Active
+844,ELE-000844,Smartphone,Electronics,Dell,23979.26,19478.96,367,15,Active
+845,BOO-000845,SQL Fundamentals,Books,Pearson,2591.95,2225.94,342,39,Active
+846,ELE-000846,Tablet,Electronics,Apple,57195.24,46410.14,322,31,Active
+847,ELE-000847,Monitor,Electronics,Sony,140068.62,102957.68,278,13,Active
+848,FUR-000848,Dining Table,Furniture,Godrej,15001.23,10881.18,448,39,Active
+849,BOO-000849,SQL Fundamentals,Books,Pearson,704.25,619.24,176,39,Active
+850,CLO-000850,Sneakers,Clothing,Puma,2434.9,2133.3,450,30,Active
+851,ELE-000851,Laptop,Electronics,Sony,65140.67,57463.23,405,40,Active
+852,GRO-000852,Coffee,Groceries,Nestle,315.35,231.32,312,37,Active
+853,CLO-000853,Hoodie,Clothing,Adidas,1140.51,860.79,393,49,Active
+854,CLO-000854,Sneakers,Clothing,Nike,4813.12,3899.47,21,43,Active
+855,ELE-000855,Monitor,Electronics,Sony,83716.56,66764.2,60,44,Active
+856,GRO-000856,Milk,Groceries,Britannia,1115.18,967.76,471,44,Active
+857,BOO-000857,Business Analytics,Books,Penguin,2954.63,2320.48,86,18,Active
+858,GRO-000858,Butter,Groceries,Nestle,1849.73,1356.32,99,46,Active
+859,GRO-000859,Biscuits,Groceries,Amul,1551.58,1372.78,193,39,Active
+860,CLO-000860,Hoodie,Clothing,Nike,783.97,666.71,447,18,Active
+861,BOO-000861,Data Science,Books,Pearson,1171.87,981.73,151,27,Active
+862,CLO-000862,Hoodie,Clothing,Puma,4978.75,4303.33,487,31,Active
+863,FUR-000863,Study Desk,Furniture,Nilkamal,52338.01,42944.16,249,39,Active
+864,CLO-000864,Jeans,Clothing,Nike,2582.88,1974.93,161,28,Active
+865,FUR-000865,Office Chair,Furniture,Godrej,17934.67,14490.35,404,48,Active
+866,FUR-000866,Office Chair,Furniture,Godrej,28500.89,25295.19,399,16,Active
+867,ELE-000867,Smartphone,Electronics,Sony,139963.35,101367.55,456,40,Active
+868,BOO-000868,Business Analytics,Books,Pearson,2941.69,2630.27,355,42,Active
+869,BOO-000869,SQL Fundamentals,Books,O'Reilly,379.81,340.37,441,26,Active
+870,CLO-000870,Sneakers,Clothing,Nike,2917.24,2485.71,172,50,Active
+871,ELE-000871,Smartphone,Electronics,HP,136810.72,96204.05,459,30,Active
+872,FUR-000872,Wardrobe,Furniture,Godrej,9777.51,8155.79,174,45,Active
+873,BOO-000873,Business Analytics,Books,Pearson,2509.48,1775.81,21,44,Active
+874,GRO-000874,Biscuits,Groceries,Nestle,792.99,589.58,83,20,Active
+875,FUR-000875,Wardrobe,Furniture,Godrej,4134.0,3505.13,472,16,Active
+876,BOO-000876,SQL Fundamentals,Books,O'Reilly,2763.0,2174.72,366,39,Active
+877,BOO-000877,Business Analytics,Books,Pearson,2710.2,2011.14,436,10,Active
+878,BOO-000878,Business Analytics,Books,Penguin,1218.35,910.52,88,19,Active
+879,GRO-000879,Bread,Groceries,Britannia,1705.97,1200.5,281,24,Active
+880,ELE-000880,Tablet,Electronics,Dell,94814.42,78511.26,324,37,Active
+881,GRO-000881,Biscuits,Groceries,Britannia,304.35,239.3,360,16,Active
+882,FUR-000882,Wardrobe,Furniture,Godrej,61529.7,45813.2,397,24,Active
+883,CLO-000883,Hoodie,Clothing,Levi's,7575.05,6561.19,356,40,Active
+884,BOO-000884,Business Analytics,Books,Penguin,1882.21,1634.53,475,46,Active
+885,GRO-000885,Biscuits,Groceries,Amul,936.36,827.47,290,13,Active
+886,GRO-000886,Biscuits,Groceries,Nestle,1764.73,1475.01,372,37,Active
+887,GRO-000887,Bread,Groceries,Nestle,1858.25,1556.01,10,13,Active
+888,CLO-000888,Hoodie,Clothing,Levi's,4533.87,3777.48,320,43,Active
+889,GRO-000889,Coffee,Groceries,Britannia,1391.82,1168.45,457,19,Active
+890,ELE-000890,Laptop,Electronics,Apple,126733.53,111661.63,177,23,Active
+891,ELE-000891,Smartphone,Electronics,HP,29353.93,25457.92,234,42,Active
+892,FUR-000892,Wardrobe,Furniture,Nilkamal,43465.98,31369.3,435,30,Active
+893,ELE-000893,Headphones,Electronics,Samsung,82954.59,73569.87,336,30,Active
+894,ELE-000894,Monitor,Electronics,Dell,98310.91,82367.77,69,22,Active
+895,ELE-000895,Smartwatch,Electronics,Apple,48360.78,39754.72,318,27,Active
+896,GRO-000896,Bread,Groceries,Nestle,1229.2,1065.44,133,10,Active
+897,BOO-000897,SQL Fundamentals,Books,Penguin,2267.21,1967.12,103,12,Active
+898,ELE-000898,Tablet,Electronics,Apple,149173.2,128042.16,13,31,Active
+899,CLO-000899,Hoodie,Clothing,Levi's,1785.16,1489.06,466,14,Active
+900,FUR-000900,Bookshelf,Furniture,Godrej,42275.92,36288.99,306,25,Active
+901,CLO-000901,Sneakers,Clothing,Nike,4890.5,3751.25,228,38,Active
+902,FUR-000902,Wardrobe,Furniture,Godrej,3948.83,3058.28,57,16,Active
+903,ELE-000903,Monitor,Electronics,Samsung,21022.1,15522.47,143,38,Active
+904,CLO-000904,Hoodie,Clothing,Nike,3554.88,2979.96,339,35,Active
+905,BOO-000905,SQL Fundamentals,Books,O'Reilly,2244.36,1897.12,86,35,Active
+906,FUR-000906,Wardrobe,Furniture,Nilkamal,22759.5,16231.38,183,27,Active
+907,CLO-000907,Jeans,Clothing,Levi's,4552.15,3733.32,498,38,Active
+908,BOO-000908,Machine Learning,Books,Pearson,2806.28,2340.92,107,36,Active
+909,ELE-000909,Headphones,Electronics,Samsung,10583.91,9256.87,487,34,Active
+910,ELE-000910,Monitor,Electronics,Dell,77192.01,67042.25,355,43,Active
+911,GRO-000911,Coffee,Groceries,Nestle,177.8,158.44,3,43,Active
+912,ELE-000912,Laptop,Electronics,Dell,75714.8,53248.0,324,12,Active
+913,CLO-000913,T-Shirt,Clothing,Nike,4530.9,3315.47,495,26,Active
+914,GRO-000914,Coffee,Groceries,Britannia,1845.58,1584.09,347,33,Active
+915,CLO-000915,Jeans,Clothing,Levi's,7272.66,5119.12,41,12,Active
+916,GRO-000916,Milk,Groceries,Britannia,571.26,442.93,127,38,Active
+917,GRO-000917,Biscuits,Groceries,Amul,262.06,225.31,46,28,Active
+918,FUR-000918,Dining Table,Furniture,Godrej,24431.33,20277.78,56,16,Active
+919,BOO-000919,Data Science,Books,Penguin,2650.26,2265.94,468,49,Active
+920,CLO-000920,T-Shirt,Clothing,Puma,1650.69,1161.78,121,22,Active
+921,ELE-000921,Smartphone,Electronics,Samsung,124127.15,91447.06,490,41,Active
+922,FUR-000922,Study Desk,Furniture,Nilkamal,77994.94,70115.19,444,33,Active
+923,CLO-000923,T-Shirt,Clothing,Levi's,3015.57,2368.88,482,35,Active
+924,BOO-000924,Machine Learning,Books,Penguin,2702.79,1958.89,387,35,Active
+925,BOO-000925,Business Analytics,Books,Penguin,1265.09,1078.2,181,47,Active
+926,FUR-000926,Study Desk,Furniture,Nilkamal,68449.24,55364.14,78,31,Active
+927,GRO-000927,Coffee,Groceries,Nestle,1551.35,1086.87,364,33,Active
+928,GRO-000928,Coffee,Groceries,Britannia,1677.71,1217.26,411,37,Active
+929,CLO-000929,Hoodie,Clothing,Levi's,5755.62,4934.11,24,20,Active
+930,CLO-000930,Sneakers,Clothing,Adidas,5991.71,5054.38,416,38,Active
+931,GRO-000931,Butter,Groceries,Nestle,1589.98,1405.32,252,33,Active
+932,BOO-000932,Machine Learning,Books,Penguin,2926.18,2625.43,290,24,Active
+933,BOO-000933,Machine Learning,Books,O'Reilly,1743.41,1434.91,480,40,Active
+934,CLO-000934,Jeans,Clothing,Adidas,7726.63,6729.65,59,21,Active
+935,FUR-000935,Office Chair,Furniture,IKEA,50091.26,42353.15,378,11,Active
+936,ELE-000936,Tablet,Electronics,Dell,32772.69,24390.51,361,46,Active
+937,CLO-000937,T-Shirt,Clothing,Puma,748.48,608.06,353,42,Active
+938,ELE-000938,Smartphone,Electronics,HP,116434.14,103042.87,168,27,Active
+939,CLO-000939,Hoodie,Clothing,Adidas,812.82,601.01,236,47,Active
+940,GRO-000940,Butter,Groceries,Amul,43.9,32.8,11,16,Active
+941,CLO-000941,T-Shirt,Clothing,Nike,6556.83,5850.72,286,27,Active
+942,ELE-000942,Headphones,Electronics,Sony,65077.57,47977.56,37,34,Active
+943,CLO-000943,Sneakers,Clothing,Levi's,7477.69,5524.53,163,27,Active
+944,ELE-000944,Laptop,Electronics,Dell,18386.83,14563.69,100,26,Active
+945,GRO-000945,Milk,Groceries,Britannia,1093.62,853.26,463,14,Active
+946,FUR-000946,Study Desk,Furniture,IKEA,50226.1,41975.37,464,25,Active
+947,BOO-000947,Machine Learning,Books,Penguin,467.86,391.74,206,48,Active
+948,BOO-000948,Business Analytics,Books,O'Reilly,2383.26,1680.99,75,34,Active
+949,BOO-000949,Machine Learning,Books,Penguin,2077.36,1578.6,236,12,Active
+950,CLO-000950,Jeans,Clothing,Adidas,5827.24,4335.95,198,22,Active
+951,CLO-000951,Jeans,Clothing,Puma,6380.54,5355.36,431,35,Active
+952,GRO-000952,Butter,Groceries,Nestle,499.12,359.23,407,23,Active
+953,FUR-000953,Study Desk,Furniture,Nilkamal,59681.2,43735.96,237,30,Active
+954,ELE-000954,Tablet,Electronics,Samsung,103312.12,73751.29,231,17,Active
+955,BOO-000955,Business Analytics,Books,Pearson,2482.5,2107.29,314,33,Active
+956,GRO-000956,Biscuits,Groceries,Nestle,494.49,384.18,177,12,Active
+957,GRO-000957,Butter,Groceries,Britannia,1437.46,1286.18,165,43,Active
+958,CLO-000958,Sneakers,Clothing,Levi's,1666.63,1343.04,210,35,Active
+959,GRO-000959,Biscuits,Groceries,Britannia,1861.81,1572.39,244,27,Active
+960,CLO-000960,T-Shirt,Clothing,Adidas,1793.75,1533.33,125,46,Active
+961,FUR-000961,Dining Table,Furniture,IKEA,30761.64,23420.25,6,22,Active
+962,ELE-000962,Monitor,Electronics,Samsung,29420.4,23902.06,441,44,Active
+963,GRO-000963,Bread,Groceries,Britannia,120.61,85.53,471,14,Active
+964,CLO-000964,Hoodie,Clothing,Levi's,7885.86,5822.42,31,41,Active
+965,ELE-000965,Headphones,Electronics,Dell,111714.52,85381.79,42,16,Active
+966,FUR-000966,Office Chair,Furniture,IKEA,19913.39,17920.1,120,18,Active
+967,GRO-000967,Coffee,Groceries,Nestle,1816.39,1426.94,248,37,Active
+968,BOO-000968,Business Analytics,Books,Pearson,596.42,522.05,171,35,Active
+969,GRO-000969,Bread,Groceries,Nestle,1348.99,1094.62,86,31,Active
+970,FUR-000970,Bookshelf,Furniture,IKEA,26696.37,23518.88,234,28,Active
+971,BOO-000971,Machine Learning,Books,Pearson,2932.95,2377.56,366,47,Active
+972,FUR-000972,Office Chair,Furniture,Godrej,9017.22,7571.04,463,17,Active
+973,ELE-000973,Smartwatch,Electronics,Sony,106827.49,79814.93,327,10,Active
+974,BOO-000974,SQL Fundamentals,Books,Pearson,1033.39,818.43,130,31,Active
+975,ELE-000975,Monitor,Electronics,Sony,104254.44,88839.85,377,12,Active
+976,GRO-000976,Bread,Groceries,Britannia,1661.6,1208.59,28,32,Active
+977,GRO-000977,Biscuits,Groceries,Britannia,517.4,414.53,30,22,Active
+978,BOO-000978,Python Programming,Books,O'Reilly,701.93,577.43,63,42,Active
+979,FUR-000979,Wardrobe,Furniture,IKEA,65961.87,59070.49,14,22,Active
+980,BOO-000980,Machine Learning,Books,Pearson,1634.74,1236.28,217,30,Active
+981,GRO-000981,Butter,Groceries,Amul,444.85,312.5,48,23,Active
+982,ELE-000982,Smartphone,Electronics,Apple,56875.9,49519.2,401,44,Active
+983,GRO-000983,Bread,Groceries,Amul,842.58,735.11,273,47,Active
+984,ELE-000984,Tablet,Electronics,Sony,75977.25,60560.42,76,45,Active
+985,BOO-000985,SQL Fundamentals,Books,Penguin,2685.47,2131.5,33,14,Active
+986,BOO-000986,Python Programming,Books,Penguin,644.32,552.76,131,14,Active
+987,BOO-000987,SQL Fundamentals,Books,Penguin,1531.24,1115.2,137,35,Active
+988,FUR-000988,Office Chair,Furniture,Nilkamal,9695.11,8545.37,12,28,Active
+989,CLO-000989,Jacket,Clothing,Nike,2830.5,2023.47,304,32,Active
+990,GRO-000990,Bread,Groceries,Nestle,1392.95,1139.76,76,44,Active
+991,CLO-000991,Hoodie,Clothing,Puma,4518.48,3296.17,100,29,Active
+992,ELE-000992,Laptop,Electronics,Apple,110494.64,96209.74,118,13,Active
+993,CLO-000993,T-Shirt,Clothing,Nike,6809.57,4823.76,251,37,Active
+994,ELE-000994,Laptop,Electronics,Apple,54278.02,40525.63,442,44,Active
+995,CLO-000995,T-Shirt,Clothing,Adidas,7855.99,5943.44,228,36,Active
+996,BOO-000996,SQL Fundamentals,Books,Penguin,2369.71,1817.12,319,13,Active
+997,BOO-000997,Business Analytics,Books,O'Reilly,1311.45,1036.58,235,48,Active
+998,BOO-000998,Python Programming,Books,Penguin,2238.88,1971.47,286,37,Active
+999,BOO-000999,Business Analytics,Books,Pearson,1645.6,1305.85,305,49,Active
+1000,FUR-001000,Study Desk,Furniture,Nilkamal,42886.99,37119.73,266,32,Active

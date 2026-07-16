@@ -327,3 +327,32 @@ def run_product_validations(df):
     print("#" * 60)
     print("PRODUCT VALIDATION PIPELINE COMPLETED")
     print("#" * 60)
+    
+    
+    
+def run_product_validations(df):
+    """
+    Run complete product validation pipeline.
+    """
+
+    print("\n" + "=" * 60)
+    print("PRODUCT VALIDATION PIPELINE STARTED")
+    print("=" * 60)
+
+    validate_product_missing_values(df)
+
+    validate_duplicate_sku(df)
+
+    validate_duplicate_product_id(df)
+
+    validate_price_columns(df)
+
+    validate_categories(df)
+
+    validate_status(df)
+
+    validate_stock(df)
+
+    print("\n" + "=" * 60)
+    print("PRODUCT VALIDATION PIPELINE COMPLETED")
+    print("=" * 60)

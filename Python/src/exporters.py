@@ -29,3 +29,34 @@ def export_to_csv(
     print(f"Dataset exported successfully!")
     print(f"Location: {file_path}")
     print("=" * 50)
+    
+    
+"""
+RetailIQ Export Utilities
+"""
+
+from pathlib import Path
+
+
+def export_dataframe(df, filename):
+    """
+    Export dataframe to CSV file.
+    """
+
+    export_path = Path("../exports")
+
+    export_path.mkdir(
+        exist_ok=True
+    )
+
+    file_path = export_path / filename
+
+    df.to_csv(
+        file_path,
+        index=False
+    )
+
+    print("=" * 50)
+    print("Export Completed Successfully")
+    print(f"File: {file_path}")
+    print("=" * 50)
