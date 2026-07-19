@@ -8,6 +8,7 @@ for generating synthetic retail datasets.
 from faker import Faker
 import pandas as pd
 import random
+from datetime import datetime
 
 fake = Faker("en_IN")  # Indian locale
 
@@ -529,3 +530,50 @@ def generate_orders(
     print(f"Generated {len(orders_df)} orders successfully.")
 
     return orders_df
+
+
+
+def generate_order_items(
+    orders_df,
+    products_df
+):
+    order_items = []
+
+    item_id = 1
+
+    product_ids = products_df["product_id"].tolist()
+
+    for _, order in orders_df.iterrows():
+
+        num_items = random.randint(1, 5)
+
+        selected_products = random.sample(
+            product_ids,
+            num_items
+        )
+
+        for product_id in selected_products:
+
+            product = products_df[
+                products_df["product_id"] == product_id
+            ].iloc[0]
+
+            quantity = random.randint(1, 3)
+
+            unit_price = product["unit_price"]
+
+            order_items.append(
+               {
+                    "order_item_id": item_id,
+                    "order_id": order["order_id"],
+                    "product_id": product_id,
+                    "quantity": quantity,
+                    "unit_price": unit_price,
+                    "discount": round(random.uniform(0, 0.20), 2),
+                    "created_at": datetime.now()
+                }
+            )
+
+            item_id += 1
+
+    return pd.DataFrame(order_items)
